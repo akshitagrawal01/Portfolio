@@ -1,291 +1,1126 @@
-@font-face {
-    font-family: hackout;
-    src: url(Hackout-Eaw5j.otf);
-}
-
-@font-face {
-    font-family: Hackdaddy;
-    src: url(Hackdaddy.otf);
-}
-
-* {
-    box-sizing: border-box;
-    font-size: 100%;
-    font-family: karantina;
-}
-
-body {
-    margin: 0px;
-    padding: 0px;
-    background-color: #111215;
-}
-
-header {
-    background-color: black;
-}
-
-.header {
-    background-color: black;
-    height: 5vw;
-    padding: 0 1vw;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.menu-button {
-    background-color: black;
-    border: none;
-    padding: 0.5vw 1vw;
-    font-size: 2vw; /* Adjust font size */
-    cursor: pointer;
-    color: wheat;
-}
-
-.menu-button:hover {
-    color: goldenrod;
-}
-
-.menu-button a {
-    text-decoration: none;
-}
-
-.menu-button:hover {
-    color: black;
-    background-color: white;
-}
-
-.menu-button a:visited {
-    color: #3c86fe;
-    text-decoration: none;
-}
-
-main {
-    padding: 20px;
-    color: wheat;
-    height: 10vw;
-    min-height: 40vw;
-    position: relative;
+@media only screen and (max-width: 600px) {
+    * {
+        box-sizing: border-box;
+        font-size: 100%;
+        font-family: karantina;
+    }
+    
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-color: #111215;
+    }
+    
+    header {
+        background-color: black;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+    
+    .header {
+        background-color: black;
+        height: 15vw;
+        padding: 0 1vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .menu-button {
+        background-color: black;
+        border: none;
+        padding: 0.5vw 4vw;
+        font-size: 5vw;
+        cursor: pointer;
+        color: wheat;
+    }
+    
+    .menu-button a {
+        text-decoration: none;
+    }
+    
+    .menu-button a:visited {
+        color: #3c86fe;
+        text-decoration: none;
     }
 
-.title {
-    margin-left: 25vw;
-    display: inline-block;
-    letter-spacing: 5px;
-    margin-top: 5vw;
-    text-shadow: 1vw 1vw 1vw black;
-    float: left;
-}
+    main {
+        padding: 20px;
+        color: wheat;
+        height: 30vw;
+        position: relative;
+        }
+    
+    .title {
+        margin-left: 15vw;
+        display: inline-block;
+        letter-spacing: 5px;
+        margin-top: 5vw;
+        text-shadow: 1vw 1vw 1vw black;
+    }
+    
+    .name {
+        display: flex;
+        align-items: last baseline;
+    }
+    
+    .a-name h1{
+        font-size: 30vw;
+        padding-right: 5px;
+        margin: auto;
+    }
+    
+    .rest-name h2{
+        font-size: 10vw;
+        margin: auto;
+    }
+    
+    .line {
+        background-color: goldenrod;;
+        width: 24vw;
+        height: 0.5vw;
+        margin: 0.8vw;
+        position: absolute;
+        left: 19vw;
+    }
+    
+    .sub-name {
+        flex-direction: column;
+        font-size: 6vw;
+    }
+    
+    .sub-name h3 {
+        margin: 0 0;
+    }
+    
+    .image {
+        display: flex;
+        position: absolute;
+        top:15vw;
+        left: 62vw;
+    }
+    
+    .image img {
+        max-width: 20vw;
+        border: 0.5vw solid black;
+        background-image: url(Noise\ BG.png);
+        padding: 1vw;
+        border-radius: 5vw;
+    }
+    
+    
+    .binary-name p{
+        font-size: 5vw;
+        color: wheat;
+        text-align: center;
+    }
+    
+    .separator {
+        background-color: #111215;
+        height: 2vw; 
+        padding: 0vw;
+        margin-top: 30vw;
+    }
+    
+    .about-me {
+        height: 50vw;
+    }
+    
+    .about-me-heading, .certifications-heading {
+        margin-top: 10vw;
+    }
 
-.name {
-    display: flex;
-    align-items: last baseline;
-}
+    .about-me-heading h2 {
+        color: wheat;
+        font-size: 8vw;
+        text-align: center;
+        letter-spacing: 0.2vw;
+    }
+    
+    .about-me-box {
+        position: relative;
+        display: inline-block;
+        bottom: 5vw;
+    }
+    
+    .about-me-content {
+        color: goldenrod;
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
+    
+    .about-me-content p {
+        font-size: 5vw;
+        text-align: justify;
+    }
 
-.a-name h1{
-    font-size: 20vw;
-    padding-right: 5px;
-    margin: auto;
-}
-
-.rest-name h2{
-    font-size: 8vw;
-    margin: auto;
-}
-
-.line {
-    background-color: goldenrod;;
-    width: 24vw;
-    height: 0.5vw;
-    margin: 0.8vw;
-    position: absolute;
-    left: 25vw;
-}
-
-.sub-name {
-    flex-direction: column;
-    font-size: 6vw;
-}
-
-.sub-name h3 {
-    margin: 0 0;
-}
-
-.router {
-    position: absolute;
-    top: 26.5vw;
-    left: 44.7vw;
-}
-
-.router img {
-    max-width: 6vw;
-}
-
-.image {
-    display: flex;
-    position: absolute;
-    top:11vw;
-    left: 62vw;
-}
-
-.image img {
-    max-width: 15vw;
-    border: 0.5vw solid black;
-    background-image: url(Noise\ BG.png);
-    padding: 1vw;
-    border-radius: 50px;
-}
-
-.binary-name p{
-    font-size: 2vw;
-    color: wheat;
-    text-align: center;
-}
-
-.separator {
-    background-color: #111215;
-    height: 2vw; 
-    padding: 0;
-    margin-bottom: 6vw;
-}
-
-.about-me {
-    height: 47vw;
-}
-
-.about-me-heading h2 {
-    color: wheat;
-    font-size: 4vw;
-    margin-top: 7vw;
-    text-align: center;
-    letter-spacing: 0.2vw;
-}
-
-.about-me-box {
-    position: relative;
-    display: inline-block;
-}
-
-.about-me-content {
-    color: goldenrod;
-    margin-left: 25vw;
-    margin-right: 25vw;
-}
-
-.about-me-content p {
-    font-size: 3vw;
-    text-align: justify;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: black;
-    padding: 1vw;
-    margin-left: 25vw;
-    margin-right: 25vw;
-    gap: 0.5vw;
-    margin-top: 5vw;
-    margin-bottom: 7vw;
-    position: relative;
-}
-
-.grid-item {
-    background-color: goldenrod;
-    height: 25vw;
-    padding: 1vw;
-    max-width: 15vw;
-    text-align: center;
-}
-
-.certifications-heading h2 {
-    color: wheat;
-    font-size: 4vw;
-    margin: 0vw;
-    text-align: center;
-    letter-spacing: 0.2vw;
-}
-
-.certifications-img {
-    max-width: 13vw;
-    margin: 0px;
-}
-
-.grid-item h2 {
-    font-size: 1.5vw;
-    position: absolute;
-    top: 12vw;
-    text-align: center;
-    margin: 0;
-    padding: 1vw;
-}
-
-.certificate-des p {
-    font-size: 1.25vw;
-    position: absolute;
-    top: 15vw;
-    text-align: justify;
-    margin: 0;
-    padding: 1vw;
-    max-width: 13vw;
-}
-
-.projects-content h3 {
-    font-size: 2vw;
-    color: wheat;
-    text-align: center;
-    letter-spacing: 0.2vh;
-    margin-top: 15vh;
-}
-
-footer {
-    background-color: black;
-    color: goldenrod;
-    margin-top: 10vw;
-}
-
-.footer {
-    margin-left: auto;
-    margin-right: auto;
-    vertical-align: middle;
-}
-
-.footer p {
-    font-size: 1.5vw;
-    text-align: center;
-    margin: 0px;
-    padding: 2vw;
-}
-
-.gold-logo, .black-logo  {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 2vw;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 3vw;
-}
-
-.social-media img {
-    max-width: 3vw;
-}
-
-.black-logo {
-    display: none;
-}
-
-.social-media:hover {
-    color: black;
-    background-color: wheat;
-    .gold-logo {
+    .grid-container {
+        display: grid;
+        background-color: black;
+        padding: 2dvh;
+        margin-left: 20vw;
+        margin-right: 20vw;
+        gap: 2vw;
+        margin-top: 5vw;
+        position: relative;
+    }
+    
+    .grid-item {
+        background-color: goldenrod;
+        height: auto;
+        padding: 1vw;
+        width: auto;
+        text-align: center;
+    }
+    
+    .certifications-heading h2 {
+        color: wheat;
+        font-size: 8vw;
+        margin: 0vw;
+        text-align: center;
+        letter-spacing: 0.2vw;
+    }
+    
+    .certifications-img {
+        max-width: 40vw;
+        margin: 5px;
+    }
+    
+    .grid-item h2 {
+        font-size: 2vw;
+        position: absolute;
+        top: 19vw;
+        text-align: center;
+        margin: 0;
+        padding: 1vw;
         display: none;
     }
-    .black-logo {
+    
+    .certificate-des p {
+        font-size: 1.25vw;
+        position: absolute;
+        top: 22vw;
+        text-align: justify;
+        margin: 0;
+        padding: 1vw;
+        max-width: 20vw;
+        display: none;
+    }
+    
+    .projects-content h3 {
+        font-size: 5vw;
+        color: wheat;
+        text-align: center;
+        letter-spacing: 0.2vh;
+        margin-top: 5vh;
+    }
+    
+    footer {
+        background-color: black;
+        color: goldenrod;
+        margin-top: 10vw;
+    }
+    
+    .footer {
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: middle;
+    }
+    
+    .footer p {
+        font-size: 1.5vw;
+        text-align: center;
+        margin: 0px;
+        padding: 2vw;
+    }
+    
+    .gold-logo, .black-logo  {
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 3vw;
+    }
+    
+    .social-media img {
+        max-width: 3vw;
+    }
+    
+    .black-logo {
+        display: none;
+    }
+    
+    .social-media:hover {
+        color: black;
+        background-color: wheat;
+        .gold-logo {
+            display: none;
+        }
+        .black-logo {
+            display: flex;
+        }
     }
 }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    * {
+        box-sizing: border-box;
+        font-size: 100%;
+        font-family: karantina;
+    }
+    
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-color: #111215;
+    }
+    
+    header {
+        background-color: black;
+    }
+    
+    .header {
+        background-color: black;
+        height: 5vw;
+        padding: 0 1vw;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .menu-button {
+        background-color: black;
+        border: none;
+        padding: 0.5vw 1vw;
+        font-size: 2vw; /* Adjust font size */
+        cursor: pointer;
+        color: wheat;
+    }
+    
+    .menu-button:hover {
+        color: goldenrod;
+    }
+    
+    .menu-button a {
+        text-decoration: none;
+    }
+    
+    .menu-button:hover {
+        color: black;
+        background-color: white;
+    }
+    
+    .menu-button a:visited {
+        color: #3c86fe;
+        text-decoration: none;
+    }
+    
+    main {
+        padding: 20px;
+        color: wheat;
+        height: 10vw;
+        min-height: 40vw;
+        position: relative;
+        }
+    
+    .title {
+        margin-left: 25vw;
+        display: inline-block;
+        letter-spacing: 5px;
+        margin-top: 5vw;
+        text-shadow: 1vw 1vw 1vw black;
+        float: left;
+    }
+    
+    .name {
+        display: flex;
+        align-items: last baseline;
+    }
+    
+    .a-name h1{
+        font-size: 20vw;
+        padding-right: 5px;
+        margin: auto;
+    }
+    
+    .rest-name h2{
+        font-size: 8vw;
+        margin: auto;
+    }
+    
+    .line {
+        background-color: goldenrod;;
+        width: 24vw;
+        height: 0.5vw;
+        margin: 0.8vw;
+        position: absolute;
+        left: 25vw;
+    }
+    
+    .sub-name {
+        flex-direction: column;
+        font-size: 6vw;
+    }
+    
+    .sub-name h3 {
+        margin: 0 0;
+    }
+    
+    .router {
+        position: absolute;
+        top: 26.5vw;
+        left: 44.7vw;
+    }
+    
+    .router img {
+        max-width: 6vw;
+    }
+    
+    .image {
+        display: flex;
+        position: absolute;
+        top:11vw;
+        left: 62vw;
+    }
+    
+    .image img {
+        max-width: 15vw;
+        border: 0.5vw solid black;
+        background-image: url(Noise\ BG.png);
+        padding: 1vw;
+        border-radius: 50px;
+    }
+    
+    .binary-name p{
+        font-size: 2vw;
+        color: wheat;
+        text-align: center;
+    }
+    
+    .separator {
+        background-color: #111215;
+        height: 2vw; 
+        padding: 0;
+        margin-bottom: 6vw;
+    }
+    
+    .about-me {
+        height: 47vw;
+    }
+    
+    .about-me-heading h2 {
+        color: wheat;
+        font-size: 4vw;
+        margin-top: 7vw;
+        text-align: center;
+        letter-spacing: 0.2vw;
+    }
+    
+    .about-me-box {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .about-me-content {
+        color: goldenrod;
+        margin-left: 25vw;
+        margin-right: 25vw;
+    }
+    
+    .about-me-content p {
+        font-size: 3vw;
+        text-align: justify;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: black;
+        padding: 1vw;
+        margin-left: 25vw;
+        margin-right: 25vw;
+        gap: 0.5vw;
+        margin-top: 5vw;
+        margin-bottom: 7vw;
+        position: relative;
+    }
+    
+    .grid-item {
+        background-color: goldenrod;
+        height: 25vw;
+        padding: 1vw;
+        max-width: 15vw;
+        text-align: center;
+    }
+    
+    .certifications-heading h2 {
+        color: wheat;
+        font-size: 4vw;
+        margin: 0vw;
+        text-align: center;
+        letter-spacing: 0.2vw;
+    }
+    
+    .certifications-img {
+        max-width: 13vw;
+        margin: 0px;
+    }
+    
+    .grid-item h2 {
+        font-size: 1.5vw;
+        position: absolute;
+        top: 12vw;
+        text-align: center;
+        margin: 0;
+        padding: 1vw;
+    }
+    
+    .certificate-des p {
+        font-size: 1.25vw;
+        position: absolute;
+        top: 15vw;
+        text-align: justify;
+        margin: 0;
+        padding: 1vw;
+        max-width: 13vw;
+    }
+    
+    .projects-content h3 {
+        font-size: 2vw;
+        color: wheat;
+        text-align: center;
+        letter-spacing: 0.2vh;
+        margin-top: 15vh;
+    }
+    
+    footer {
+        background-color: black;
+        color: goldenrod;
+        margin-top: 10vw;
+    }
+    
+    .footer {
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: middle;
+    }
+    
+    .footer p {
+        font-size: 1.5vw;
+        text-align: center;
+        margin: 0px;
+        padding: 2vw;
+    }
+    
+    .gold-logo, .black-logo  {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 3vw;
+    }
+    
+    .social-media img {
+        max-width: 3vw;
+    }
+    
+    .black-logo {
+        display: none;
+    }
+    
+    .social-media:hover {
+        color: black;
+        background-color: wheat;
+        .gold-logo {
+            display: none;
+        }
+        .black-logo {
+            display: flex;
+        }
+    }
+} 
+
+  /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    * {
+        box-sizing: border-box;
+        font-size: 100%;
+        font-family: karantina;
+    }
+    
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-color: #111215;
+    }
+    
+    header {
+        background-color: black;
+    }
+    
+    .header {
+        background-color: black;
+        height: 5vw;
+        padding: 0 1vw;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .menu-button {
+        background-color: black;
+        border: none;
+        padding: 0.5vw 1vw;
+        font-size: 2vw; /* Adjust font size */
+        cursor: pointer;
+        color: wheat;
+    }
+    
+    .menu-button:hover {
+        color: goldenrod;
+    }
+    
+    .menu-button a {
+        text-decoration: none;
+    }
+    
+    .menu-button:hover {
+        color: black;
+        background-color: white;
+    }
+    
+    .menu-button a:visited {
+        color: #3c86fe;
+        text-decoration: none;
+    }
+    
+    main {
+        padding: 20px;
+        color: wheat;
+        height: 10vw;
+        min-height: 40vw;
+        position: relative;
+        }
+    
+    .title {
+        margin-left: 25vw;
+        display: inline-block;
+        letter-spacing: 5px;
+        margin-top: 5vw;
+        text-shadow: 1vw 1vw 1vw black;
+        float: left;
+    }
+    
+    .name {
+        display: flex;
+        align-items: last baseline;
+    }
+    
+    .a-name h1{
+        font-size: 20vw;
+        padding-right: 5px;
+        margin: auto;
+    }
+    
+    .rest-name h2{
+        font-size: 8vw;
+        margin: auto;
+    }
+    
+    .line {
+        background-color: goldenrod;;
+        width: 24vw;
+        height: 0.5vw;
+        margin: 0.8vw;
+        position: absolute;
+        left: 25vw;
+    }
+    
+    .sub-name {
+        flex-direction: column;
+        font-size: 6vw;
+    }
+    
+    .sub-name h3 {
+        margin: 0 0;
+    }
+    
+    .router {
+        position: absolute;
+        top: 26.5vw;
+        left: 44.7vw;
+    }
+    
+    .router img {
+        max-width: 6vw;
+    }
+    
+    .image {
+        display: flex;
+        position: absolute;
+        top:11vw;
+        left: 62vw;
+    }
+    
+    .image img {
+        max-width: 15vw;
+        border: 0.5vw solid black;
+        background-image: url(Noise\ BG.png);
+        padding: 1vw;
+        border-radius: 50px;
+    }
+    
+    .binary-name p{
+        font-size: 2vw;
+        color: wheat;
+        text-align: center;
+    }
+    
+    .separator {
+        background-color: #111215;
+        height: 2vw; 
+        padding: 0;
+        margin-bottom: 6vw;
+    }
+    
+    .about-me {
+        height: 47vw;
+    }
+    
+    .about-me-heading h2 {
+        color: wheat;
+        font-size: 4vw;
+        margin-top: 7vw;
+        text-align: center;
+        letter-spacing: 0.2vw;
+    }
+    
+    .about-me-box {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .about-me-content {
+        color: goldenrod;
+        margin-left: 25vw;
+        margin-right: 25vw;
+    }
+    
+    .about-me-content p {
+        font-size: 3vw;
+        text-align: justify;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: black;
+        padding: 1vw;
+        margin-left: 25vw;
+        margin-right: 25vw;
+        gap: 0.5vw;
+        margin-top: 5vw;
+        margin-bottom: 7vw;
+        position: relative;
+    }
+    
+    .grid-item {
+        background-color: goldenrod;
+        height: 25vw;
+        padding: 1vw;
+        max-width: 15vw;
+        text-align: center;
+    }
+    
+    .certifications-heading h2 {
+        color: wheat;
+        font-size: 4vw;
+        margin: 0vw;
+        text-align: center;
+        letter-spacing: 0.2vw;
+    }
+    
+    .certifications-img {
+        max-width: 13vw;
+        margin: 0px;
+    }
+    
+    .grid-item h2 {
+        font-size: 1.5vw;
+        position: absolute;
+        top: 12vw;
+        text-align: center;
+        margin: 0;
+        padding: 1vw;
+    }
+    
+    .certificate-des p {
+        font-size: 1.25vw;
+        position: absolute;
+        top: 15vw;
+        text-align: justify;
+        margin: 0;
+        padding: 1vw;
+        max-width: 13vw;
+    }
+    
+    .projects-content h3 {
+        font-size: 2vw;
+        color: wheat;
+        text-align: center;
+        letter-spacing: 0.2vh;
+        margin-top: 15vh;
+    }
+    
+    footer {
+        background-color: black;
+        color: goldenrod;
+        margin-top: 10vw;
+    }
+    
+    .footer {
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: middle;
+    }
+    
+    .footer p {
+        font-size: 1.5vw;
+        text-align: center;
+        margin: 0px;
+        padding: 2vw;
+    }
+    
+    .gold-logo, .black-logo  {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 3vw;
+    }
+    
+    .social-media img {
+        max-width: 3vw;
+    }
+    
+    .black-logo {
+        display: none;
+    }
+    
+    .social-media:hover {
+        color: black;
+        background-color: wheat;
+        .gold-logo {
+            display: none;
+        }
+        .black-logo {
+            display: flex;
+        }
+    }
+} 
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    * {
+        box-sizing: border-box;
+        font-size: 100%;
+        font-family: karantina;
+    }
+    
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-color: #111215;
+    }
+    
+    header {
+        background-color: black;
+    }
+    
+    .header {
+        background-color: black;
+        height: 5vw;
+        padding: 0 1vw;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .menu-button {
+        background-color: black;
+        border: none;
+        padding: 0.5vw 1vw;
+        font-size: 2vw; /* Adjust font size */
+        cursor: pointer;
+        color: wheat;
+    }
+    
+    .menu-button:hover {
+        color: goldenrod;
+    }
+    
+    .menu-button a {
+        text-decoration: none;
+    }
+    
+    .menu-button:hover {
+        color: black;
+        background-color: white;
+    }
+    
+    .menu-button a:visited {
+        color: #3c86fe;
+        text-decoration: none;
+    }
+    
+    main {
+        padding: 20px;
+        color: wheat;
+        height: 10vw;
+        min-height: 40vw;
+        position: relative;
+        }
+    
+    .title {
+        margin-left: 25vw;
+        display: inline-block;
+        letter-spacing: 5px;
+        margin-top: 5vw;
+        text-shadow: 1vw 1vw 1vw black;
+        float: left;
+    }
+    
+    .name {
+        display: flex;
+        align-items: last baseline;
+    }
+    
+    .a-name h1{
+        font-size: 20vw;
+        padding-right: 5px;
+        margin: auto;
+    }
+    
+    .rest-name h2{
+        font-size: 8vw;
+        margin: auto;
+    }
+    
+    .line {
+        background-color: goldenrod;;
+        width: 24vw;
+        height: 0.5vw;
+        margin: 0.8vw;
+        position: absolute;
+        left: 25vw;
+    }
+    
+    .sub-name {
+        flex-direction: column;
+        font-size: 6vw;
+    }
+    
+    .sub-name h3 {
+        margin: 0 0;
+    }
+    
+    .router {
+        position: absolute;
+        top: 26.5vw;
+        left: 44.7vw;
+    }
+    
+    .router img {
+        max-width: 6vw;
+    }
+    
+    .image {
+        display: flex;
+        position: absolute;
+        top:11vw;
+        left: 62vw;
+    }
+    
+    .image img {
+        max-width: 15vw;
+        border: 0.5vw solid black;
+        background-image: url(Noise\ BG.png);
+        padding: 1vw;
+        border-radius: 50px;
+    }
+    
+    .binary-name p{
+        font-size: 2vw;
+        color: wheat;
+        text-align: center;
+    }
+    
+    .separator {
+        background-color: #111215;
+        height: 2vw; 
+        padding: 0;
+        margin-bottom: 6vw;
+    }
+    
+    .about-me {
+        height: 47vw;
+    }
+    
+    .about-me-heading h2 {
+        color: wheat;
+        font-size: 4vw;
+        margin-top: 7vw;
+        text-align: center;
+        letter-spacing: 0.2vw;
+    }
+    
+    .about-me-box {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .about-me-content {
+        color: goldenrod;
+        margin-left: 25vw;
+        margin-right: 25vw;
+    }
+    
+    .about-me-content p {
+        font-size: 3vw;
+        text-align: justify;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: black;
+        padding: 1vw;
+        margin-left: 25vw;
+        margin-right: 25vw;
+        gap: 0.5vw;
+        margin-top: 5vw;
+        margin-bottom: 7vw;
+        position: relative;
+    }
+    
+    .grid-item {
+        background-color: goldenrod;
+        height: 25vw;
+        padding: 1vw;
+        max-width: 15vw;
+        text-align: center;
+    }
+    
+    .certifications-heading h2 {
+        color: wheat;
+        font-size: 4vw;
+        margin: 0vw;
+        text-align: center;
+        letter-spacing: 0.2vw;
+    }
+    
+    .certifications-img {
+        max-width: 13vw;
+        margin: 0px;
+    }
+    
+    .grid-item h2 {
+        font-size: 1.5vw;
+        position: absolute;
+        top: 12vw;
+        text-align: center;
+        margin: 0;
+        padding: 1vw;
+    }
+    
+    .certificate-des p {
+        font-size: 1.25vw;
+        position: absolute;
+        top: 15vw;
+        text-align: justify;
+        margin: 0;
+        padding: 1vw;
+        max-width: 13vw;
+    }
+    
+    .projects-content h3 {
+        font-size: 2vw;
+        color: wheat;
+        text-align: center;
+        letter-spacing: 0.2vh;
+        margin-top: 15vh;
+    }
+    
+    footer {
+        background-color: black;
+        color: goldenrod;
+        margin-top: 10vw;
+    }
+    
+    .footer {
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: middle;
+    }
+    
+    .footer p {
+        font-size: 1.5vw;
+        text-align: center;
+        margin: 0px;
+        padding: 2vw;
+    }
+    
+    .gold-logo, .black-logo  {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 3vw;
+    }
+    
+    .social-media img {
+        max-width: 3vw;
+    }
+    
+    .black-logo {
+        display: none;
+    }
+    
+    .social-media:hover {
+        color: black;
+        background-color: wheat;
+        .gold-logo {
+            display: none;
+        }
+        .black-logo {
+            display: flex;
+        }
+    }
+}
+
