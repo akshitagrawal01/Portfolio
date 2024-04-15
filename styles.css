@@ -81,16 +81,17 @@
     
     .line {
         background-color: goldenrod;;
-        width: 24vw;
+        width: 33vw;
         height: 0.5vw;
         margin: 0.8vw;
+        margin-bottom: 1vw;
         position: absolute;
-        left: 18vw;
+        left: 17vw;
     }
     
     .sub-name {
         flex-direction: column;
-        font-size: 6vw;
+        font-size: 3vw;
     }
     
     .sub-name h3 {
@@ -400,16 +401,16 @@
     
     .line {
         background-color: goldenrod;;
-        width: 24vw;
+        width: 25.2vw;
         height: 0.5vw;
         margin: 0.8vw;
         position: absolute;
-        left: 25vw;
+        left: 26vw;
     }
     
     .sub-name {
         flex-direction: column;
-        font-size: 6vw;
+        font-size: 2.3vw;
     }
     
     .sub-name h3 {
@@ -686,7 +687,6 @@
         letter-spacing: 5px;
         margin-top: 5vw;
         text-shadow: 1vw 1vw 1vw black;
-        float: left;
     }
     
     .name {
@@ -711,12 +711,12 @@
         height: 0.5vw;
         margin: 0.8vw;
         position: absolute;
-        left: 25vw;
+        left: 26vw;
     }
     
     .sub-name {
         flex-direction: column;
-        font-size: 6vw;
+        font-size: 2.5vw;
     }
     
     .sub-name h3 {
@@ -1023,7 +1023,7 @@
     
     .sub-name {
         flex-direction: column;
-        font-size: 6vw;
+        font-size: 3vw;
     }
     
     .sub-name h3 {
