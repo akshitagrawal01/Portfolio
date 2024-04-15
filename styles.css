@@ -72,6 +72,7 @@
         font-size: 30vw;
         padding-right: 5px;
         margin: auto;
+        color: goldenrod;
     }
     
     .rest-name h2{
@@ -89,13 +90,22 @@
         left: 17vw;
     }
     
-    .sub-name {
-        flex-direction: column;
-        font-size: 6vw;
+    .year {
+        display: flex;
+        align-items: last baseline;
+        justify-content: right;
     }
     
-    .sub-name h3 {
-        margin: 0 0;
+    .year-main h2{
+        font-size: 4.75vw;
+        padding-right: 2vw;
+        margin: auto;
+    }
+    
+    .year-number h2{
+        font-size: 5vw;
+        margin: auto;
+        color: goldenrod;
     }
 
     .image {
@@ -369,8 +379,7 @@
     main {
         padding: 20px;
         color: wheat;
-        height: 10vw;
-        min-height: 40vw;
+        height: 45vw;
         position: relative;
         }
     
@@ -392,6 +401,7 @@
         font-size: 20vw;
         padding-right: 5px;
         margin: auto;
+        color: goldenrod;
     }
     
     .rest-name h2{
@@ -408,13 +418,22 @@
         left: 26vw;
     }
     
-    .sub-name {
-        flex-direction: column;
-        font-size: 6vw;
+    .year {
+        display: flex;
+        align-items: last baseline;
+        justify-content: right;
     }
     
-    .sub-name h3 {
-        margin: 0 0;
+    .year-main h2{
+        font-size: 4.75vw;
+        padding-right: 2vw;
+        margin: auto;
+    }
+    
+    .year-number h2{
+        font-size: 5vw;
+        margin: auto;
+        color: goldenrod;
     }
 
     .image {
@@ -435,7 +454,7 @@
     .background-image {
         opacity: 5%;
         position: relative;
-        bottom: 49.4vw;
+        bottom: 44.4vw;
         left: -10vw;
         padding-top: 50vw;
     }
@@ -676,8 +695,7 @@
     main {
         padding: 20px;
         color: wheat;
-        height: 10vw;
-        min-height: 40vw;
+        height: 45vw;
         position: relative;
         }
     
@@ -714,13 +732,22 @@
         left: 26vw;
     }
     
-    .sub-name {
-        flex-direction: column;
-        font-size: 6vw;
+    .year {
+        display: flex;
+        align-items: last baseline;
+        justify-content: right;
     }
     
-    .sub-name h3 {
-        margin: 0 0;
+    .year-main h2{
+        font-size: 4.75vw;
+        padding-right: 2vw;
+        margin: auto;
+    }
+    
+    .year-number h2{
+        font-size: 5vw;
+        margin: auto;
+        color: goldenrod;
     }
     
     .image {
@@ -741,7 +768,7 @@
     .background-image {
         opacity: 5%;
         position: relative;
-        bottom: 49.4vw;
+        bottom: 44.4vw;
         left: -10vw;
         padding-top: 50vw;
     }
@@ -983,8 +1010,7 @@
     main {
         padding: 20px;
         color: wheat;
-        height: 10vw;
-        min-height: 40vw;
+        min-height: 43vw;
         position: relative;
         }
     
@@ -1005,11 +1031,30 @@
         font-size: 20vw;
         padding-right: 5px;
         margin: auto;
+        color: goldenrod;
     }
     
     .rest-name h2{
         font-size: 8vw;
         margin: auto;
+    }
+
+    .year {
+        display: flex;
+        align-items: last baseline;
+        justify-content: right;
+    }
+    
+    .year-main h2{
+        font-size: 4.75vw;
+        padding-right: 2vw;
+        margin: auto;
+    }
+    
+    .year-number h2{
+        font-size: 5vw;
+        margin: auto;
+        color: goldenrod;
     }
     
     .line {
@@ -1048,7 +1093,7 @@
     .background-image {
         opacity: 5%;
         position: relative;
-        bottom: 49vw;
+        bottom: 44vw;
         left: -10vw;
         padding-top: 50vw;
     }
