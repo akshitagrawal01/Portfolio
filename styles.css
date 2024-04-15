@@ -143,6 +143,21 @@
     .about-me {
         height: 130vw;
     }
+
+    .about-me-background {
+        opacity: 5%;
+        position: relative;
+        bottom: 187vw;
+        left: -10vw;
+        padding-top: 50vw;
+    }
+
+    .about-me-background img {
+        height: 70vw;
+        width: 110vw;
+        object-fit: cover;
+        transform: rotate(180deg);
+    }
     
     .about-me-border {
         border: 10px solid gold;
@@ -445,6 +460,21 @@
         height: 57vw;
     }
     
+    .about-me-background {
+        opacity: 5%;
+        position: relative;
+        bottom: 110vw;
+        left: -10vw;
+        padding-top: 50vw;
+    }
+
+    .about-me-background img {
+        height: 40vw;
+        width: 110vw;
+        object-fit: cover;
+        transform: rotate(180deg);
+    }
+
     .about-me-border {
         border: 10px solid gold;
         padding-bottom: 4vw;
@@ -741,6 +771,22 @@
         height: 57vw;
     }
 
+    .about-me-background {
+        opacity: 5%;
+        position: relative;
+        bottom: 109vw;
+        left: -10vw;
+        padding-top: 50vw;
+    }
+
+    .about-me-background img {
+        height: 40vw;
+        width: 110vw;
+        object-fit: cover;
+        transform: rotate(180deg);
+    }
+
+
     .about-me-border {
         border: 10px solid gold;
         padding-bottom: 4vw;
@@ -922,10 +968,6 @@
         color: wheat;
     }
     
-    .menu-button:hover {
-        color: goldenrod;
-    }
-    
     .menu-button a {
         text-decoration: none;
     }
@@ -954,7 +996,6 @@
         letter-spacing: 5px;
         margin-top: 5vw;
         text-shadow: 1vw 1vw 1vw black;
-        float: left;
     }
     
     .name {
@@ -1009,7 +1050,7 @@
     .background-image {
         opacity: 5%;
         position: relative;
-        bottom: 49.4vw;
+        bottom: 49vw;
         left: -10vw;
         padding-top: 50vw;
     }
@@ -1037,6 +1078,21 @@
         height: 57vw;
     }
     
+    .about-me-background {
+        opacity: 5%;
+        position: relative;
+        bottom: 109vw;
+        left: -10vw;
+        padding-top: 50vw;
+    }
+
+    .about-me-background img {
+        height: 40vw;
+        width: 110vw;
+        object-fit: cover;
+        transform: rotate(180deg);
+    }
+
     .about-me-border {
         border: 10px solid gold;
         padding-bottom: 4vw;
