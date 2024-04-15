@@ -50,9 +50,9 @@
     main {
         padding: 20px;
         color: wheat;
-        height: 30vw;
+        height: 60vw;
         position: relative;
-        }
+    }
     
     .title {
         margin-left: 15vw;
@@ -122,11 +122,12 @@
         background-color: #111215;
         height: 2vw; 
         padding: 0vw;
-        margin-top: 30vw;
+        margin-top: 5vw;
+        margin-bottom: 15vw;
     }
     
     .about-me {
-        height: 50vw;
+        height: 90vw;
     }
     
     .about-me-heading, .certifications-heading {
@@ -231,10 +232,11 @@
     }
     
     .footer p {
-        font-size: 1.5vw;
+        font-size: 3vw;
         text-align: center;
         margin: 0px;
-        padding: 2vw;
+        padding: 8vw;
+        height: 20vw;
     }
     
     .gold-logo, .black-logo  {
@@ -243,14 +245,14 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        gap: 2vw;
+        gap: 10vw;
         max-width: 100%;
         margin: 0 auto;
-        padding: 3vw;
+        padding: 6vw;
     }
     
     .social-media img {
-        max-width: 3vw;
+        max-width: 9vw;
     }
     
     .black-logo {
