@@ -147,7 +147,7 @@
     .about-me-background {
         opacity: 5%;
         position: relative;
-        bottom: 187vw;
+        bottom: 189vw;
         left: -10vw;
         padding-top: 50vw;
     }
@@ -968,6 +968,10 @@
         color: wheat;
     }
     
+    .menu-button:hover {
+        color: goldenrod;
+    }
+    
     .menu-button a {
         text-decoration: none;
     }
@@ -981,7 +985,6 @@
         color: #3c86fe;
         text-decoration: none;
     }
-    
     main {
         padding: 20px;
         color: wheat;
