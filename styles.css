@@ -176,17 +176,17 @@
         margin: 10vw 15vw;
     }
 
-    .about-me-heading, .certifications-heading {
+    .about-me-heading, {
         margin-top: 10vw;
     }
 
-    .about-me-heading h2 {
-        color: wheat;
+    .about-me-heading h2, .certifications-heading h2, .projects-heading h2 {
+        color: goldenrod;
         font-size: 8vw;
         text-align: center;
         letter-spacing: 0.2vw;
     }
-    
+
     .about-me-box {
         position: relative;
         display: inline-block;
@@ -194,7 +194,7 @@
     }
     
     .about-me-content {
-        color: goldenrod;
+        color: wheat;
         margin-left: 5vw;
         margin-right: 5vw;
     }
@@ -225,7 +225,7 @@
     }
 
     .certificates-image {
-        background-color: goldenrod;
+        background-color: wheat;
         margin: 1vw;
         padding: 1vw;
         width: 25vw;
@@ -238,7 +238,7 @@
     .certificates-image img {
         display: block;
         width: 20vw;
-        border: 0.3vw solid wheat;
+        border: 0.3vw solid #111215;
         margin-right: vw;
     }
 
@@ -503,8 +503,8 @@
         margin: 0 15vw;
     }
 
-    .about-me-heading h2 {
-        color: wheat;
+    .about-me-heading h2, .certifications-heading h2, .projects-heading h2 {
+        color: goldenrod;
         font-size: 4vw;
         margin-top: 7vw;
         text-align: center;
@@ -517,7 +517,7 @@
     }
     
     .about-me-content {
-        color: goldenrod;
+        color: wheat;
         margin-left: 5vw;
         margin-right: 5vw;
     }
@@ -543,7 +543,7 @@
     }
 
     .certificates-image {
-        background-color: goldenrod;
+        background-color: wheat;
         margin: 3vw 1vw;
         padding: 1vw;
         width: auto;
@@ -556,7 +556,7 @@
     .certificates-image img {
         display: block;
         width: 100%;
-        border: 0.3vw solid wheat;
+        border: 0.3vw solid #111215;
         margin-right: vw;
     }
 
@@ -818,21 +818,21 @@
         margin: 0 15vw;
     }
     
-    .about-me-heading h2 {
-        color: wheat;
+    .about-me-heading h2, .certifications-heading h2, .projects-heading h2 {
+        color: goldenrod;
         font-size: 4vw;
         margin-top: 7vw;
         text-align: center;
         letter-spacing: 0.2vw;
     }
-    
+
     .about-me-box {
         position: relative;
         display: inline-block;
     }
     
     .about-me-content {
-        color: goldenrod;
+        color: wheat;
         margin-left: 5vw;
         margin-right: 5vw;
     }
@@ -858,7 +858,7 @@
     }
 
     .certificates-image {
-        background-color: goldenrod;
+        background-color: wheat;
         margin: 3vw 1vw;
         padding: 1vw;
         width: auto;
@@ -871,7 +871,7 @@
     .certificates-image img {
         display: block;
         width: 100%;
-        border: 0.3vw solid wheat;
+        border: 0.3vw solid #111215;
         margin-right: vw;
     }
 
@@ -1142,8 +1142,8 @@
         margin: 0 15vw;
     }
 
-    .about-me-heading h2 {
-        color: wheat;
+    .about-me-heading h2, .certifications-heading h2, .projects-heading h2 {
+        color: goldenrod;
         font-size: 4vw;
         margin-top: 7vw;
         text-align: center;
@@ -1156,7 +1156,7 @@
     }
     
     .about-me-content {
-        color: goldenrod;
+        color: wheat;
         margin-left: 5vw;
         margin-right: 5vw;
     }
@@ -1174,7 +1174,7 @@
     }
 
     .certificates-image {
-        background-color: goldenrod;
+        background-color: wheat;
         margin: 3vw 1vw;
         padding: 1vw;
         width: auto;
@@ -1187,7 +1187,7 @@
     .certificates-image img {
         display: block;
         width: 100%;
-        border: 0.3vw solid wheat;
+        border: 0.3vw solid #111215;
     }
 
     .see-more-button {
