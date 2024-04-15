@@ -9,6 +9,7 @@
         margin: 0px;
         padding: 0px;
         background-color: #111215;
+        overflow-x: hidden;
     }
     
     header {
@@ -95,7 +96,7 @@
     .sub-name h3 {
         margin: 0 0;
     }
-    
+
     .image {
         display: flex;
         position: absolute;
@@ -111,6 +112,19 @@
         border-radius: 5vw;
     }
     
+    .background-image {
+        opacity: 5%;
+        position: relative;
+        bottom: 94.4vw;
+        left: -10vw;
+        padding-top: 50vw;
+    }
+    
+    .background-image img {
+        height: 65vw;
+        width: 110vw;
+        object-fit: cover;
+    }
     
     .binary-name p{
         font-size: 5vw;
@@ -119,8 +133,8 @@
     }
     
     .separator {
-        background-color: #111215;
-        height: 2vw; 
+        background-color: black;
+        height: 6vw; 
         padding: 0vw;
         margin-top: 5vw;
         margin-bottom: 15vw;
@@ -283,6 +297,7 @@
         margin: 0px;
         padding: 0px;
         background-color: #111215;
+        overflow-x: hidden;
     }
     
     header {
@@ -377,17 +392,7 @@
     .sub-name h3 {
         margin: 0 0;
     }
-    
-    .router {
-        position: absolute;
-        top: 26.5vw;
-        left: 44.7vw;
-    }
-    
-    .router img {
-        max-width: 6vw;
-    }
-    
+
     .image {
         display: flex;
         position: absolute;
@@ -403,6 +408,20 @@
         border-radius: 50px;
     }
     
+    .background-image {
+        opacity: 5%;
+        position: relative;
+        bottom: 49.4vw;
+        left: -10vw;
+        padding-top: 50vw;
+    }
+    
+    .background-image img {
+        height: 40vw;
+        width: 110vw;
+        object-fit: cover;
+    }
+
     .binary-name p{
         font-size: 2vw;
         color: wheat;
@@ -410,7 +429,7 @@
     }
     
     .separator {
-        background-color: #111215;
+        background-color: black;
         height: 2vw; 
         padding: 0;
         margin-bottom: 6vw;
@@ -568,6 +587,7 @@
         margin: 0px;
         padding: 0px;
         background-color: #111215;
+        overflow-x: hidden;
     }
     
     header {
@@ -663,16 +683,6 @@
         margin: 0 0;
     }
     
-    .router {
-        position: absolute;
-        top: 26.5vw;
-        left: 44.7vw;
-    }
-    
-    .router img {
-        max-width: 6vw;
-    }
-    
     .image {
         display: flex;
         position: absolute;
@@ -687,6 +697,20 @@
         padding: 1vw;
         border-radius: 50px;
     }
+
+    .background-image {
+        opacity: 5%;
+        position: relative;
+        bottom: 49.4vw;
+        left: -10vw;
+        padding-top: 50vw;
+    }
+
+    .background-image img {
+        height: 40vw;
+        width: 110vw;
+        object-fit: cover;
+    }
     
     .binary-name p{
         font-size: 2vw;
@@ -695,7 +719,7 @@
     }
     
     .separator {
-        background-color: #111215;
+        background-color: black;
         height: 2vw; 
         padding: 0;
         margin-bottom: 6vw;
@@ -853,6 +877,7 @@
         margin: 0px;
         padding: 0px;
         background-color: #111215;
+        overflow-x: hidden;
     }
     
     header {
@@ -948,16 +973,6 @@
         margin: 0 0;
     }
     
-    .router {
-        position: absolute;
-        top: 26.5vw;
-        left: 44.7vw;
-    }
-    
-    .router img {
-        max-width: 6vw;
-    }
-    
     .image {
         display: flex;
         position: absolute;
@@ -973,6 +988,20 @@
         border-radius: 50px;
     }
     
+    .background-image {
+        opacity: 5%;
+        position: relative;
+        bottom: 49.4vw;
+        left: -10vw;
+        padding-top: 50vw;
+    }
+
+    .background-image img {
+        height: 40vw;
+        width: 110vw;
+        object-fit: cover;
+    }
+
     .binary-name p{
         font-size: 2vw;
         color: wheat;
@@ -980,8 +1009,8 @@
     }
     
     .separator {
-        background-color: #111215;
-        height: 2vw; 
+        background-color: black;
+        height: 2.5vw; 
         padding: 0;
         margin-bottom: 6vw;
     }
