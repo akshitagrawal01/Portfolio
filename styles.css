@@ -137,17 +137,17 @@
         height: 6vw; 
         padding: 0vw;
         margin-top: 5vw;
-        margin-bottom: 15vw;
+        margin-bottom: 5vw;
     }
     
     .about-me {
-        height: 130vw;
+        height: 135vw;
     }
 
     .about-me-background {
         opacity: 5%;
         position: relative;
-        bottom: 189vw;
+        bottom: 199vw;
         left: -10vw;
         padding-top: 50vw;
     }
@@ -162,7 +162,7 @@
     .about-me-border {
         border: 10px solid gold;
         padding-bottom: 4vw;
-        margin: 0 15vw;
+        margin: 10vw 15vw;
     }
 
     .about-me-heading, .certifications-heading {
@@ -193,25 +193,10 @@
         text-align: justify;
     }
 
-    .grid-container {
-        display: grid;
-        background-color: black;
-        padding: 2dvh;
-        margin-left: 20vw;
-        margin-right: 20vw;
-        gap: 2vw;
-        margin-top: 5vw;
-        position: relative;
+    .certifications {
+        height: 55vw;
     }
-    
-    .grid-item {
-        background-color: goldenrod;
-        height: auto;
-        padding: 1vw;
-        width: auto;
-        text-align: center;
-    }
-    
+
     .certifications-heading h2 {
         color: wheat;
         font-size: 8vw;
@@ -219,41 +204,58 @@
         text-align: center;
         letter-spacing: 0.2vw;
     }
-    
-    .certifications-img {
-        max-width: 40vw;
-        margin: 5px;
+
+    .certificates {
+        display: flex;
+        margin-left: 15vw;
+        margin-right: 15vw;
+        justify-content: center;
+        margin-top: 5vw;
     }
-    
-    .grid-item h2 {
-        font-size: 2vw;
-        position: absolute;
-        top: 19vw;
-        text-align: center;
-        margin: 0;
+
+    .certificates-image {
+        background-color: goldenrod;
+        margin: 1vw;
         padding: 1vw;
-        display: none;
+        width: 25vw;
+        height: 19vw;
+        border: 1vw solid black;
+        display: flex;
+        justify-content: center;
+    }
+
+    .certificates-image img {
+        display: block;
+        width: 20vw;
+        border: 0.3vw solid wheat;
+        margin-right: vw;
+    }
+
+    .see-more-button {
+        background-color: black;
+        border: none;
+        padding: 0.5vw 1vw;
+        font-size: 2vw; /* Adjust font size */
+        cursor: pointer;
+        color: wheat;
+        margin: 0 46.5%;
+        margin-bottom: 1vw;
     }
     
-    .certificate-des p {
-        font-size: 1.25vw;
-        position: absolute;
-        top: 22vw;
-        text-align: justify;
-        margin: 0;
-        padding: 1vw;
-        max-width: 20vw;
-        display: none;
+    .see-more-button:hover {
+        color: goldenrod;
+        background-color: white;
     }
     
+
     .projects-content h3 {
-        font-size: 5vw;
+        font-size: 4vw;
         color: wheat;
         text-align: center;
         letter-spacing: 0.2vh;
         margin-top: 5vh;
     }
-    
+
     footer {
         background-color: black;
         color: goldenrod;
@@ -505,27 +507,6 @@
         text-align: justify;
     }
     
-    .grid-container {
-        display: grid;
-        grid-template-columns: auto auto auto;
-        background-color: black;
-        padding: 1vw;
-        margin-left: 25vw;
-        margin-right: 25vw;
-        gap: 0.5vw;
-        margin-top: 5vw;
-        margin-bottom: 7vw;
-        position: relative;
-    }
-    
-    .grid-item {
-        background-color: goldenrod;
-        height: 25vw;
-        padding: 1vw;
-        max-width: 15vw;
-        text-align: center;
-    }
-    
     .certifications-heading h2 {
         color: wheat;
         font-size: 4vw;
@@ -534,38 +515,55 @@
         letter-spacing: 0.2vw;
     }
     
-    .certifications-img {
-        max-width: 13vw;
-        margin: 0px;
+    .certificates {
+        display: flex;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        justify-content: center;
     }
-    
-    .grid-item h2 {
-        font-size: 1.5vw;
-        position: absolute;
-        top: 12vw;
-        text-align: center;
-        margin: 0;
+
+    .certificates-image {
+        background-color: goldenrod;
+        margin: 3vw 1vw;
         padding: 1vw;
+        width: auto;
+        height: 18vw;
+        border: 1vw solid black;
+        display: flex;
+        justify-content: center;
+    }
+
+    .certificates-image img {
+        display: block;
+        width: 100%;
+        border: 0.3vw solid wheat;
+        margin-right: vw;
+    }
+
+    .see-more-button {
+        background-color: black;
+        border: none;
+        padding: 0.5vw 1vw;
+        font-size: 2vw; /* Adjust font size */
+        cursor: pointer;
+        color: wheat;
+        margin: 0 46.5%;
+        margin-bottom: 1vw;
     }
     
-    .certificate-des p {
-        font-size: 1.25vw;
-        position: absolute;
-        top: 15vw;
-        text-align: justify;
-        margin: 0;
-        padding: 1vw;
-        max-width: 13vw;
+    .see-more-button:hover {
+        color: goldenrod;
+        background-color: white;
     }
-    
+
     .projects-content h3 {
-        font-size: 2vw;
+        font-size: 4vw;
         color: wheat;
         text-align: center;
         letter-spacing: 0.2vh;
-        margin-top: 15vh;
+        margin-top: 5vh;
     }
-    
+
     footer {
         background-color: black;
         color: goldenrod;
@@ -817,27 +815,6 @@
         text-align: justify;
     }
     
-    .grid-container {
-        display: grid;
-        grid-template-columns: auto auto auto;
-        background-color: black;
-        padding: 1vw;
-        margin-left: 25vw;
-        margin-right: 25vw;
-        gap: 0.5vw;
-        margin-top: 5vw;
-        margin-bottom: 7vw;
-        position: relative;
-    }
-    
-    .grid-item {
-        background-color: goldenrod;
-        height: 25vw;
-        padding: 1vw;
-        max-width: 15vw;
-        text-align: center;
-    }
-    
     .certifications-heading h2 {
         color: wheat;
         font-size: 4vw;
@@ -845,37 +822,54 @@
         text-align: center;
         letter-spacing: 0.2vw;
     }
-    
-    .certifications-img {
-        max-width: 13vw;
-        margin: 0px;
+
+    .certificates {
+        display: flex;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        justify-content: center;
     }
-    
-    .grid-item h2 {
-        font-size: 1.5vw;
-        position: absolute;
-        top: 12vw;
-        text-align: center;
-        margin: 0;
+
+    .certificates-image {
+        background-color: goldenrod;
+        margin: 3vw 1vw;
         padding: 1vw;
+        width: auto;
+        height: 18vw;
+        border: 1vw solid black;
+        display: flex;
+        justify-content: center;
+    }
+
+    .certificates-image img {
+        display: block;
+        width: 100%;
+        border: 0.3vw solid wheat;
+        margin-right: vw;
+    }
+
+    .see-more-button {
+        background-color: black;
+        border: none;
+        padding: 0.5vw 1vw;
+        font-size: 2vw; /* Adjust font size */
+        cursor: pointer;
+        color: wheat;
+        margin: 0 46.5%;
+        margin-bottom: 1vw;
     }
     
-    .certificate-des p {
-        font-size: 1.25vw;
-        position: absolute;
-        top: 15vw;
-        text-align: justify;
-        margin: 0;
-        padding: 1vw;
-        max-width: 13vw;
+    .see-more-button:hover {
+        color: goldenrod;
+        background-color: white;
     }
-    
+
     .projects-content h3 {
-        font-size: 2vw;
+        font-size: 3vw;
         color: wheat;
         text-align: center;
         letter-spacing: 0.2vh;
-        margin-top: 15vh;
+        margin-top: 5vh;
     }
     
     footer {
@@ -985,6 +979,7 @@
         color: #3c86fe;
         text-decoration: none;
     }
+
     main {
         padding: 20px;
         color: wheat;
@@ -1125,66 +1120,53 @@
         font-size: 3vw;
         text-align: justify;
     }
-    
-    .grid-container {
-        display: grid;
-        grid-template-columns: auto auto auto;
-        background-color: black;
-        padding: 1vw;
-        margin-left: 25vw;
-        margin-right: 25vw;
-        gap: 0.5vw;
-        margin-top: 5vw;
-        margin-bottom: 7vw;
-        position: relative;
+
+    .certificates {
+        display: flex;
+        margin-left: 15vw;
+        margin-right: 15vw;
+        justify-content: center;
     }
-    
-    .grid-item {
+
+    .certificates-image {
         background-color: goldenrod;
-        height: 25vw;
+        margin: 3vw 1vw;
         padding: 1vw;
-        max-width: 15vw;
-        text-align: center;
+        width: auto;
+        height: 15vw;
+        border: 1vw solid black;
+        display: flex;
+        justify-content: center;
     }
-    
-    .certifications-heading h2 {
+
+    .certificates-image img {
+        display: block;
+        width: 100%;
+        border: 0.3vw solid wheat;
+    }
+
+    .see-more-button {
+        background-color: black;
+        border: none;
+        padding: 0.5vw 1vw;
+        font-size: 2vw; /* Adjust font size */
+        cursor: pointer;
         color: wheat;
-        font-size: 4vw;
-        margin: 0vw;
-        text-align: center;
-        letter-spacing: 0.2vw;
+        margin: 0 46.5%;
+        margin-bottom: 1vw;
     }
     
-    .certifications-img {
-        max-width: 13vw;
-        margin: 0px;
-    }
-    
-    .grid-item h2 {
-        font-size: 1.5vw;
-        position: absolute;
-        top: 12vw;
-        text-align: center;
-        margin: 0;
-        padding: 1vw;
-    }
-    
-    .certificate-des p {
-        font-size: 1.25vw;
-        position: absolute;
-        top: 15vw;
-        text-align: justify;
-        margin: 0;
-        padding: 1vw;
-        max-width: 13vw;
+    .see-more-button:hover {
+        color: goldenrod;
+        background-color: white;
     }
     
     .projects-content h3 {
-        font-size: 2vw;
+        font-size: 4vw;
         color: wheat;
         text-align: center;
         letter-spacing: 0.2vh;
-        margin-top: 15vh;
+        margin-top: 5vh;
     }
     
     footer {
