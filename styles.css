@@ -141,9 +141,15 @@
     }
     
     .about-me {
-        height: 90vw;
+        height: 130vw;
     }
     
+    .about-me-border {
+        border: 10px solid gold;
+        padding-bottom: 4vw;
+        margin: 0 15vw;
+    }
+
     .about-me-heading, .certifications-heading {
         margin-top: 10vw;
     }
@@ -163,8 +169,8 @@
     
     .about-me-content {
         color: goldenrod;
-        margin-left: 15vw;
-        margin-right: 15vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
     }
     
     .about-me-content p {
@@ -436,9 +442,15 @@
     }
     
     .about-me {
-        height: 47vw;
+        height: 57vw;
     }
     
+    .about-me-border {
+        border: 10px solid gold;
+        padding-bottom: 4vw;
+        margin: 0 15vw;
+    }
+
     .about-me-heading h2 {
         color: wheat;
         font-size: 4vw;
@@ -454,8 +466,8 @@
     
     .about-me-content {
         color: goldenrod;
-        margin-left: 25vw;
-        margin-right: 25vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
     }
     
     .about-me-content p {
@@ -726,7 +738,13 @@
     }
     
     .about-me {
-        height: 47vw;
+        height: 57vw;
+    }
+
+    .about-me-border {
+        border: 10px solid gold;
+        padding-bottom: 4vw;
+        margin: 0 15vw;
     }
     
     .about-me-heading h2 {
@@ -744,8 +762,8 @@
     
     .about-me-content {
         color: goldenrod;
-        margin-left: 25vw;
-        margin-right: 25vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
     }
     
     .about-me-content p {
@@ -1016,9 +1034,15 @@
     }
     
     .about-me {
-        height: 47vw;
+        height: 57vw;
     }
     
+    .about-me-border {
+        border: 10px solid gold;
+        padding-bottom: 4vw;
+        margin: 0 15vw;
+    }
+
     .about-me-heading h2 {
         color: wheat;
         font-size: 4vw;
@@ -1034,8 +1058,8 @@
     
     .about-me-content {
         color: goldenrod;
-        margin-left: 25vw;
-        margin-right: 25vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
     }
     
     .about-me-content p {
