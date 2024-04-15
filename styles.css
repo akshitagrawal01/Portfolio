@@ -1,0 +1,1267 @@
+@media only screen and (max-width: 767px) {
+    * {
+        box-sizing: border-box;
+        font-size: 100%;
+        font-family: karantina;
+    }
+    
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-color: #111215;
+        overflow-x: hidden;
+    }
+    
+    header {
+        background-color: black;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+    
+    .header {
+        background-color: black;
+        height: 15vw;
+        padding: 0 1vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .menu-button {
+        background-color: black;
+        border: none;
+        padding: 0.5vw 4vw;
+        font-size: 5vw;
+        cursor: pointer;
+        color: wheat;
+    }
+    
+    .menu-button a {
+        text-decoration: none;
+    }
+    
+    .menu-button a:visited {
+        color: #3c86fe;
+        text-decoration: none;
+    }
+
+    main {
+        padding: 20px;
+        color: wheat;
+        height: 60vw;
+        position: relative;
+    }
+    
+    .title {
+        margin-left: 15vw;
+        display: inline-block;
+        letter-spacing: 5px;
+        margin-top: 5vw;
+        text-shadow: 1vw 1vw 1vw black;
+    }
+    
+    .name {
+        display: flex;
+        align-items: last baseline;
+    }
+    
+    .a-name h1{
+        font-size: 30vw;
+        padding-right: 5px;
+        margin: auto;
+        color: goldenrod;
+    }
+    
+    .rest-name h2{
+        font-size: 10vw;
+        margin: auto;
+    }
+    
+    .line {
+        background-color: goldenrod;;
+        width: 33vw;
+        height: 0.5vw;
+        margin: 0.8vw;
+        margin-bottom: 1vw;
+        position: absolute;
+        left: 17vw;
+    }
+    
+    .year {
+        display: flex;
+        align-items: last baseline;
+        justify-content: right;
+    }
+    
+    .year-main h2{
+        font-size: 4.75vw;
+        padding-right: 2vw;
+        margin: auto;
+    }
+    
+    .year-number h2{
+        font-size: 5vw;
+        margin: auto;
+        color: goldenrod;
+    }
+
+    .image {
+        display: flex;
+        position: absolute;
+        top:15vw;
+        left: 62vw;
+    }
+    
+    .image img {
+        max-width: 20vw;
+        border: 0.5vw solid black;
+        background-image: url(Noise\ BG.png);
+        padding: 1vw;
+        border-radius: 5vw;
+    }
+    
+    .background-image {
+        opacity: 5%;
+        position: relative;
+        bottom: 91.4vw;
+        left: -10vw;
+        padding-top: 50vw;
+    }
+    
+    .background-image img {
+        height: 65vw;
+        width: 102vw;
+        object-fit: cover;
+    }
+    
+    .binary-name p{
+        font-size: 5vw;
+        color: wheat;
+        text-align: center;
+    }
+    
+    .separator {
+        background-color: black;
+        height: 6vw; 
+        padding: 0vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+    
+    .about-me {
+        height: 135vw;
+    }
+
+    .about-me-background {
+        opacity: 5%;
+        position: relative;
+        bottom: 194vw;
+        left: -10vw;
+        padding-top: 50vw;
+    }
+
+    .about-me-background img {
+        height: 70vw;
+        width: 110vw;
+        object-fit: cover;
+        transform: rotate(180deg);
+    }
+    
+    .about-me-border {
+        border: 10px solid gold;
+        padding-bottom: 4vw;
+        margin: 10vw 15vw;
+    }
+
+    .about-me-heading, .certifications-heading {
+        margin-top: 10vw;
+    }
+
+    .about-me-heading h2 {
+        color: wheat;
+        font-size: 8vw;
+        text-align: center;
+        letter-spacing: 0.2vw;
+    }
+    
+    .about-me-box {
+        position: relative;
+        display: inline-block;
+        bottom: 5vw;
+    }
+    
+    .about-me-content {
+        color: goldenrod;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    
+    .about-me-content p {
+        font-size: 5vw;
+        text-align: justify;
+    }
+
+    .certifications {
+        height: 55vw;
+    }
+
+    .certifications-heading h2 {
+        color: wheat;
+        font-size: 8vw;
+        margin: 0vw;
+        text-align: center;
+        letter-spacing: 0.2vw;
+    }
+
+    .certificates {
+        display: flex;
+        margin-left: 15vw;
+        margin-right: 15vw;
+        justify-content: center;
+        margin-top: 5vw;
+    }
+
+    .certificates-image {
+        background-color: goldenrod;
+        margin: 1vw;
+        padding: 1vw;
+        width: 25vw;
+        height: 19vw;
+        border: 1vw solid black;
+        display: flex;
+        justify-content: center;
+    }
+
+    .certificates-image img {
+        display: block;
+        width: 20vw;
+        border: 0.3vw solid wheat;
+        margin-right: vw;
+    }
+
+    .see-more-button {
+        background-color: black;
+        border: none;
+        padding: 0.5vw 1vw;
+        font-size: 2vw; /* Adjust font size */
+        cursor: pointer;
+        color: wheat;
+        margin: 0 46.5%;
+        margin-bottom: 1vw;
+    }
+    
+    .see-more-button:hover {
+        color: goldenrod;
+        background-color: white;
+    }
+    
+
+    .projects-content h3 {
+        font-size: 4vw;
+        color: wheat;
+        text-align: center;
+        letter-spacing: 0.2vh;
+        margin-top: 5vh;
+    }
+
+    footer {
+        background-color: black;
+        color: goldenrod;
+        margin-top: 10vw;
+    }
+    
+    .footer {
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: middle;
+    }
+    
+    .footer p {
+        font-size: 3vw;
+        text-align: center;
+        margin: 0px;
+        padding: 8vw;
+        height: 20vw;
+    }
+    
+    .gold-logo, .black-logo  {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10vw;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 6vw;
+    }
+    
+    .social-media img {
+        max-width: 9vw;
+    }
+    
+    .black-logo {
+        display: none;
+    }
+    
+    .social-media:hover {
+        color: black;
+        background-color: wheat;
+        .gold-logo {
+            display: none;
+        }
+        .black-logo {
+            display: flex;
+        }
+    }
+}
+
+  /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    * {
+        box-sizing: border-box;
+        font-size: 100%;
+        font-family: karantina;
+    }
+    
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-color: #111215;
+        overflow-x: hidden;
+    }
+    
+    header {
+        background-color: black;
+    }
+    
+    .header {
+        background-color: black;
+        height: 5vw;
+        padding: 0 1vw;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .menu-button {
+        background-color: black;
+        border: none;
+        padding: 0.5vw 1vw;
+        font-size: 2vw; /* Adjust font size */
+        cursor: pointer;
+        color: wheat;
+    }
+    
+    .menu-button:hover {
+        color: goldenrod;
+    }
+    
+    .menu-button a {
+        text-decoration: none;
+    }
+    
+    .menu-button:hover {
+        color: black;
+        background-color: white;
+    }
+    
+    .menu-button a:visited {
+        color: #3c86fe;
+        text-decoration: none;
+    }
+    
+    main {
+        padding: 20px;
+        color: wheat;
+        height: 45vw;
+        position: relative;
+        }
+    
+    .title {
+        margin-left: 25vw;
+        display: inline-block;
+        letter-spacing: 5px;
+        margin-top: 5vw;
+        text-shadow: 1vw 1vw 1vw black;
+        float: left;
+    }
+    
+    .name {
+        display: flex;
+        align-items: last baseline;
+    }
+    
+    .a-name h1{
+        font-size: 20vw;
+        padding-right: 5px;
+        margin: auto;
+        color: goldenrod;
+    }
+    
+    .rest-name h2{
+        font-size: 8vw;
+        margin: auto;
+    }
+    
+    .line {
+        background-color: goldenrod;;
+        width: 25.2vw;
+        height: 0.5vw;
+        margin: 0.8vw;
+        position: absolute;
+        left: 26vw;
+    }
+    
+    .year {
+        display: flex;
+        align-items: last baseline;
+        justify-content: right;
+    }
+    
+    .year-main h2{
+        font-size: 4.75vw;
+        padding-right: 2vw;
+        margin: auto;
+    }
+    
+    .year-number h2{
+        font-size: 5vw;
+        margin: auto;
+        color: goldenrod;
+    }
+
+    .image {
+        display: flex;
+        position: absolute;
+        top:11vw;
+        left: 62vw;
+    }
+    
+    .image img {
+        max-width: 15vw;
+        border: 0.5vw solid black;
+        background-image: url(Noise\ BG.png);
+        padding: 1vw;
+        border-radius: 50px;
+    }
+    
+    .background-image {
+        opacity: 5%;
+        position: relative;
+        bottom: 44.4vw;
+        left: -10vw;
+        padding-top: 50vw;
+    }
+    
+    .background-image img {
+        height: 40vw;
+        width: 110vw;
+        object-fit: cover;
+    }
+
+    .binary-name p{
+        font-size: 2vw;
+        color: wheat;
+        text-align: center;
+    }
+    
+    .separator {
+        background-color: black;
+        height: 2vw; 
+        padding: 0;
+        margin-bottom: 6vw;
+    }
+    
+    .about-me {
+        height: 57vw;
+    }
+    
+    .about-me-background {
+        opacity: 5%;
+        position: relative;
+        bottom: 110vw;
+        left: -10vw;
+        padding-top: 50vw;
+    }
+
+    .about-me-background img {
+        height: 40vw;
+        width: 110vw;
+        object-fit: cover;
+        transform: rotate(180deg);
+    }
+
+    .about-me-border {
+        border: 10px solid gold;
+        padding-bottom: 4vw;
+        margin: 0 15vw;
+    }
+
+    .about-me-heading h2 {
+        color: wheat;
+        font-size: 4vw;
+        margin-top: 7vw;
+        text-align: center;
+        letter-spacing: 0.2vw;
+    }
+    
+    .about-me-box {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .about-me-content {
+        color: goldenrod;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    
+    .about-me-content p {
+        font-size: 3vw;
+        text-align: justify;
+    }
+    
+    .certifications-heading h2 {
+        color: wheat;
+        font-size: 4vw;
+        margin: 0vw;
+        text-align: center;
+        letter-spacing: 0.2vw;
+    }
+    
+    .certificates {
+        display: flex;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        justify-content: center;
+    }
+
+    .certificates-image {
+        background-color: goldenrod;
+        margin: 3vw 1vw;
+        padding: 1vw;
+        width: auto;
+        height: 18vw;
+        border: 1vw solid black;
+        display: flex;
+        justify-content: center;
+    }
+
+    .certificates-image img {
+        display: block;
+        width: 100%;
+        border: 0.3vw solid wheat;
+        margin-right: vw;
+    }
+
+    .see-more-button {
+        background-color: black;
+        border: none;
+        padding: 0.5vw 1vw;
+        font-size: 2vw; /* Adjust font size */
+        cursor: pointer;
+        color: wheat;
+        margin: 0 46.5%;
+        margin-bottom: 1vw;
+    }
+    
+    .see-more-button:hover {
+        color: goldenrod;
+        background-color: white;
+    }
+
+    .projects-content h3 {
+        font-size: 4vw;
+        color: wheat;
+        text-align: center;
+        letter-spacing: 0.2vh;
+        margin-top: 5vh;
+    }
+
+    footer {
+        background-color: black;
+        color: goldenrod;
+        margin-top: 10vw;
+    }
+    
+    .footer {
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: middle;
+    }
+    
+    .footer p {
+        font-size: 1.5vw;
+        text-align: center;
+        margin: 0px;
+        padding: 2vw;
+    }
+    
+    .gold-logo, .black-logo  {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 3vw;
+    }
+    
+    .social-media img {
+        max-width: 3vw;
+    }
+    
+    .black-logo {
+        display: none;
+    }
+    
+    .social-media:hover {
+        color: black;
+        background-color: wheat;
+        .gold-logo {
+            display: none;
+        }
+        .black-logo {
+            display: flex;
+        }
+    }
+} 
+
+  /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    * {
+        box-sizing: border-box;
+        font-size: 100%;
+        font-family: karantina;
+    }
+    
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-color: #111215;
+        overflow-x: hidden;
+    }
+    
+    header {
+        background-color: black;
+    }
+    
+    .header {
+        background-color: black;
+        height: 5vw;
+        padding: 0 1vw;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .menu-button {
+        background-color: black;
+        border: none;
+        padding: 0.5vw 1vw;
+        font-size: 2vw; /* Adjust font size */
+        cursor: pointer;
+        color: wheat;
+    }
+    
+    .menu-button:hover {
+        color: goldenrod;
+    }
+    
+    .menu-button a {
+        text-decoration: none;
+    }
+    
+    .menu-button:hover {
+        color: black;
+        background-color: white;
+    }
+    
+    .menu-button a:visited {
+        color: #3c86fe;
+        text-decoration: none;
+    }
+    
+    main {
+        padding: 20px;
+        color: wheat;
+        height: 45vw;
+        position: relative;
+        }
+    
+    .title {
+        margin-left: 25vw;
+        display: inline-block;
+        letter-spacing: 5px;
+        margin-top: 5vw;
+        text-shadow: 1vw 1vw 1vw black;
+    }
+    
+    .name {
+        display: flex;
+        align-items: last baseline;
+    }
+    
+    .a-name h1{
+        font-size: 20vw;
+        padding-right: 5px;
+        margin: auto;
+    }
+    
+    .rest-name h2{
+        font-size: 8vw;
+        margin: auto;
+    }
+    
+    .line {
+        background-color: goldenrod;;
+        width: 24vw;
+        height: 0.5vw;
+        margin: 0.8vw;
+        position: absolute;
+        left: 26vw;
+    }
+    
+    .year {
+        display: flex;
+        align-items: last baseline;
+        justify-content: right;
+    }
+    
+    .year-main h2{
+        font-size: 4.75vw;
+        padding-right: 2vw;
+        margin: auto;
+    }
+    
+    .year-number h2{
+        font-size: 5vw;
+        margin: auto;
+        color: goldenrod;
+    }
+    
+    .image {
+        display: flex;
+        position: absolute;
+        top:11vw;
+        left: 62vw;
+    }
+    
+    .image img {
+        max-width: 15vw;
+        border: 0.5vw solid black;
+        background-image: url(Noise\ BG.png);
+        padding: 1vw;
+        border-radius: 50px;
+    }
+
+    .background-image {
+        opacity: 5%;
+        position: relative;
+        bottom: 44.4vw;
+        left: -10vw;
+        padding-top: 50vw;
+    }
+
+    .background-image img {
+        height: 40vw;
+        width: 110vw;
+        object-fit: cover;
+    }
+    
+    .binary-name p{
+        font-size: 2vw;
+        color: wheat;
+        text-align: center;
+    }
+    
+    .separator {
+        background-color: black;
+        height: 2vw; 
+        padding: 0;
+        margin-bottom: 6vw;
+    }
+    
+    .about-me {
+        height: 57vw;
+    }
+
+    .about-me-background {
+        opacity: 5%;
+        position: relative;
+        bottom: 110vw;
+        left: -10vw;
+        padding-top: 50vw;
+    }
+
+    .about-me-background img {
+        height: 40vw;
+        width: 110vw;
+        object-fit: cover;
+        transform: rotate(180deg);
+    }
+
+
+    .about-me-border {
+        border: 10px solid gold;
+        padding-bottom: 4vw;
+        margin: 0 15vw;
+    }
+    
+    .about-me-heading h2 {
+        color: wheat;
+        font-size: 4vw;
+        margin-top: 7vw;
+        text-align: center;
+        letter-spacing: 0.2vw;
+    }
+    
+    .about-me-box {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .about-me-content {
+        color: goldenrod;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    
+    .about-me-content p {
+        font-size: 3vw;
+        text-align: justify;
+    }
+    
+    .certifications-heading h2 {
+        color: wheat;
+        font-size: 4vw;
+        margin: 0vw;
+        text-align: center;
+        letter-spacing: 0.2vw;
+    }
+
+    .certificates {
+        display: flex;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        justify-content: center;
+    }
+
+    .certificates-image {
+        background-color: goldenrod;
+        margin: 3vw 1vw;
+        padding: 1vw;
+        width: auto;
+        height: 18vw;
+        border: 1vw solid black;
+        display: flex;
+        justify-content: center;
+    }
+
+    .certificates-image img {
+        display: block;
+        width: 100%;
+        border: 0.3vw solid wheat;
+        margin-right: vw;
+    }
+
+    .see-more-button {
+        background-color: black;
+        border: none;
+        padding: 0.5vw 1vw;
+        font-size: 2vw; /* Adjust font size */
+        cursor: pointer;
+        color: wheat;
+        margin: 0 46.5%;
+        margin-bottom: 1vw;
+    }
+    
+    .see-more-button:hover {
+        color: goldenrod;
+        background-color: white;
+    }
+
+    .projects-content h3 {
+        font-size: 3vw;
+        color: wheat;
+        text-align: center;
+        letter-spacing: 0.2vh;
+        margin-top: 5vh;
+    }
+    
+    footer {
+        background-color: black;
+        color: goldenrod;
+        margin-top: 10vw;
+    }
+    
+    .footer {
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: middle;
+    }
+    
+    .footer p {
+        font-size: 1.5vw;
+        text-align: center;
+        margin: 0px;
+        padding: 2vw;
+    }
+    
+    .gold-logo, .black-logo  {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 3vw;
+    }
+    
+    .social-media img {
+        max-width: 3vw;
+    }
+    
+    .black-logo {
+        display: none;
+    }
+    
+    .social-media:hover {
+        color: black;
+        background-color: wheat;
+        .gold-logo {
+            display: none;
+        }
+        .black-logo {
+            display: flex;
+        }
+    }
+} 
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    * {
+        box-sizing: border-box;
+        font-size: 100%;
+        font-family: karantina;
+    }
+    
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-color: #111215;
+        overflow-x: hidden;
+    }
+    
+    header {
+        background-color: black;
+    }
+    
+    .header {
+        background-color: black;
+        height: 5vw;
+        padding: 0 1vw;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .menu-button {
+        background-color: black;
+        border: none;
+        padding: 0.5vw 1vw;
+        font-size: 2vw; /* Adjust font size */
+        cursor: pointer;
+        color: wheat;
+    }
+    
+    .menu-button:hover {
+        color: goldenrod;
+    }
+    
+    .menu-button a {
+        text-decoration: none;
+    }
+    
+    .menu-button:hover {
+        color: black;
+        background-color: white;
+    }
+    
+    .menu-button a:visited {
+        color: #3c86fe;
+        text-decoration: none;
+    }
+
+    main {
+        padding: 20px;
+        color: wheat;
+        min-height: 43vw;
+        position: relative;
+        }
+    
+    .title {
+        margin-left: 25vw;
+        display: inline-block;
+        letter-spacing: 5px;
+        margin-top: 5vw;
+        text-shadow: 1vw 1vw 1vw black;
+    }
+    
+    .name {
+        display: flex;
+        align-items: last baseline;
+    }
+    
+    .a-name h1{
+        font-size: 20vw;
+        padding-right: 5px;
+        margin: auto;
+        color: goldenrod;
+    }
+    
+    .rest-name h2{
+        font-size: 8vw;
+        margin: auto;
+    }
+
+    .year {
+        display: flex;
+        align-items: last baseline;
+        justify-content: right;
+    }
+    
+    .year-main h2{
+        font-size: 4.75vw;
+        padding-right: 2vw;
+        margin: auto;
+    }
+    
+    .year-number h2{
+        font-size: 5vw;
+        margin: auto;
+        color: goldenrod;
+    }
+    
+    .line {
+        background-color: goldenrod;;
+        width: 24vw;
+        height: 0.5vw;
+        margin: 0.8vw;
+        position: absolute;
+        left: 25vw;
+    }
+    
+    .sub-name {
+        flex-direction: column;
+        font-size: 6vw;
+    }
+    
+    .sub-name h3 {
+        margin: 0 0;
+    }
+    
+    .image {
+        display: flex;
+        position: absolute;
+        top:11vw;
+        left: 62vw;
+    }
+    
+    .image img {
+        max-width: 15vw;
+        border: 0.5vw solid black;
+        background-image: url(Noise\ BG.png);
+        padding: 1vw;
+        border-radius: 50px;
+    }
+    
+    .background-image {
+        opacity: 5%;
+        position: relative;
+        bottom: 44vw;
+        left: -10vw;
+        padding-top: 50vw;
+    }
+
+    .background-image img {
+        height: 40vw;
+        width: 110vw;
+        object-fit: cover;
+    }
+
+    .binary-name p{
+        font-size: 2vw;
+        color: wheat;
+        text-align: center;
+    }
+    
+    .separator {
+        background-color: black;
+        height: 2.5vw; 
+        padding: 0;
+        margin-bottom: 6vw;
+    }
+    
+    .about-me {
+        height: 57vw;
+    }
+    
+    .about-me-background {
+        opacity: 5%;
+        position: relative;
+        bottom: 106vw;
+        left: -10vw;
+        padding-top: 50vw;
+    }
+
+    .about-me-background img {
+        height: 40vw;
+        width: 110vw;
+        object-fit: cover;
+        transform: rotate(180deg);
+    }
+
+    .about-me-border {
+        border: 10px solid gold;
+        padding-bottom: 4vw;
+        margin: 0 15vw;
+    }
+
+    .about-me-heading h2 {
+        color: wheat;
+        font-size: 4vw;
+        margin-top: 7vw;
+        text-align: center;
+        letter-spacing: 0.2vw;
+    }
+    
+    .about-me-box {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .about-me-content {
+        color: goldenrod;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    
+    .about-me-content p {
+        font-size: 3vw;
+        text-align: justify;
+    }
+
+    .certificates {
+        display: flex;
+        margin-left: 15vw;
+        margin-right: 15vw;
+        justify-content: center;
+    }
+
+    .certificates-image {
+        background-color: goldenrod;
+        margin: 3vw 1vw;
+        padding: 1vw;
+        width: auto;
+        height: 15vw;
+        border: 1vw solid black;
+        display: flex;
+        justify-content: center;
+    }
+
+    .certificates-image img {
+        display: block;
+        width: 100%;
+        border: 0.3vw solid wheat;
+    }
+
+    .see-more-button {
+        background-color: black;
+        border: none;
+        padding: 0.5vw 1vw;
+        font-size: 2vw; /* Adjust font size */
+        cursor: pointer;
+        color: wheat;
+        margin: 0 46.5%;
+        margin-bottom: 1vw;
+    }
+    
+    .see-more-button:hover {
+        color: goldenrod;
+        background-color: white;
+    }
+    
+    .projects-content h3 {
+        font-size: 4vw;
+        color: wheat;
+        text-align: center;
+        letter-spacing: 0.2vh;
+        margin-top: 5vh;
+    }
+    
+    footer {
+        background-color: black;
+        color: goldenrod;
+        margin-top: 10vw;
+    }
+    
+    .footer {
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: middle;
+    }
+    
+    .footer p {
+        font-size: 1.5vw;
+        text-align: center;
+        margin: 0px;
+        padding: 2vw;
+    }
+    
+    .gold-logo, .black-logo  {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2vw;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 3vw;
+    }
+    
+    .social-media img {
+        max-width: 3vw;
+    }
+    
+    .black-logo {
+        display: none;
+    }
+    
+    .social-media:hover {
+        color: black;
+        background-color: wheat;
+        .gold-logo {
+            display: none;
+        }
+        .black-logo {
+            display: flex;
+        }
+    }
+}
+
