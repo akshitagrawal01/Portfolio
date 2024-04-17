@@ -57,10 +57,10 @@
     
     .title {
         margin-left: 15vw;
-        display: inline-block;
         letter-spacing: 5px;
         margin-top: 5vw;
         text-shadow: 1vw 1vw 1vw black;
+        float: left;
     }
     
     .name {
@@ -82,24 +82,16 @@
     
     .line {
         background-color: goldenrod;;
-        width: 33vw;
-        height: 0.5vw;
-        margin: 0.8vw;
-        margin-bottom: 1vw;
+        width: 36vw;
+        height: 0.1vw;
         position: absolute;
-        left: 17vw;
     }
-    
-    .year {
-        display: flex;
-        align-items: last baseline;
-        justify-content: right;
-    }
-    
+
     .year-main h2{
-        font-size: 4.75vw;
+        font-size: 4vw;
         padding-right: 2vw;
         margin: auto;
+        margin-top: 3vw;
     }
     
     .year-number h2{
@@ -126,8 +118,8 @@
     .background-image {
         opacity: 5%;
         position: relative;
-        bottom: 91.4vw;
-        left: -10vw;
+        bottom: 53vw;
+        left: -5vw;
         padding-top: 50vw;
     }
     
@@ -137,46 +129,31 @@
         object-fit: cover;
     }
     
-    .binary-name p{
+    .binary-name {
+        margin: 0vw;
         font-size: 5vw;
         color: wheat;
         text-align: center;
     }
-    
+
     .separator {
         background-color: black;
         height: 6vw; 
-        padding: 0vw;
-        margin-top: 5vw;
-        margin-bottom: 5vw;
+        margin: 4vw 0;
     }
     
     .about-me {
         height: 135vw;
-    }
-
-    .about-me-background {
-        opacity: 5%;
         position: relative;
-        bottom: 194vw;
-        left: -10vw;
-        padding-top: 50vw;
     }
 
-    .about-me-background img {
-        height: 70vw;
-        width: 110vw;
-        object-fit: cover;
-        transform: rotate(180deg);
-    }
-    
     .about-me-border {
         border: 10px solid gold;
-        padding-bottom: 4vw;
-        margin: 10vw 15vw;
+        margin: 15vw;
+        position: absolute;
     }
 
-    .about-me-heading, {
+    .about-me-heading {
         margin-top: 10vw;
     }
 
@@ -206,14 +183,6 @@
 
     .certifications {
         height: 55vw;
-    }
-
-    .certifications-heading h2 {
-        color: wheat;
-        font-size: 8vw;
-        margin: 0vw;
-        text-align: center;
-        letter-spacing: 0.2vw;
     }
 
     .certificates {
@@ -384,8 +353,7 @@
         }
     
     .title {
-        margin-left: 25vw;
-        display: inline-block;
+        margin-left: 15vw;
         letter-spacing: 5px;
         margin-top: 5vw;
         text-shadow: 1vw 1vw 1vw black;
@@ -411,27 +379,20 @@
     
     .line {
         background-color: goldenrod;;
-        width: 25.2vw;
-        height: 0.5vw;
-        margin: 0.8vw;
+        width: 26vw;
+        height: 0.1vw;
         position: absolute;
-        left: 26vw;
-    }
-    
-    .year {
-        display: flex;
-        align-items: last baseline;
-        justify-content: right;
     }
     
     .year-main h2{
         font-size: 4.75vw;
         padding-right: 2vw;
         margin: auto;
+        margin-top: 2vw;
     }
     
     .year-number h2{
-        font-size: 5vw;
+        font-size: 3.75vw;
         margin: auto;
         color: goldenrod;
     }
@@ -465,7 +426,8 @@
         object-fit: cover;
     }
 
-    .binary-name p{
+    .binary-name {
+        margin: 0vw;
         font-size: 2vw;
         color: wheat;
         text-align: center;
@@ -474,39 +436,25 @@
     .separator {
         background-color: black;
         height: 2vw; 
-        padding: 0;
-        margin-bottom: 6vw;
+        margin: 2vw 0;
+        margin-top: 5vw;
     }
     
     .about-me {
-        height: 57vw;
-    }
-    
-    .about-me-background {
-        opacity: 5%;
+        height: 50vw;
         position: relative;
-        bottom: 110vw;
-        left: -10vw;
-        padding-top: 50vw;
-    }
-
-    .about-me-background img {
-        height: 40vw;
-        width: 110vw;
-        object-fit: cover;
-        transform: rotate(180deg);
     }
 
     .about-me-border {
         border: 10px solid gold;
-        padding-bottom: 4vw;
-        margin: 0 15vw;
+        margin: 5vw 15vw;
+        position: absolute;
     }
 
     .about-me-heading h2, .certifications-heading h2, .projects-heading h2 {
         color: goldenrod;
         font-size: 4vw;
-        margin-top: 7vw;
+        margin-top: 4vw;
         text-align: center;
         letter-spacing: 0.2vw;
     }
@@ -525,14 +473,7 @@
     .about-me-content p {
         font-size: 3vw;
         text-align: justify;
-    }
-    
-    .certifications-heading h2 {
-        color: wheat;
-        font-size: 4vw;
-        margin: 0vw;
-        text-align: center;
-        letter-spacing: 0.2vw;
+        margin-top: 0;
     }
     
     .certificates {
@@ -700,11 +641,11 @@
         }
     
     .title {
-        margin-left: 25vw;
-        display: inline-block;
+        margin-left: 15vw;
         letter-spacing: 5px;
         margin-top: 5vw;
         text-shadow: 1vw 1vw 1vw black;
+        float: left;
     }
     
     .name {
@@ -723,29 +664,23 @@
         margin: auto;
     }
     
+
     .line {
         background-color: goldenrod;;
         width: 24vw;
-        height: 0.5vw;
-        margin: 0.8vw;
+        height: 0.1vw;
         position: absolute;
-        left: 26vw;
     }
-    
-    .year {
-        display: flex;
-        align-items: last baseline;
-        justify-content: right;
-    }
-    
+
     .year-main h2{
         font-size: 4.75vw;
         padding-right: 2vw;
         margin: auto;
+        margin-top: 2vw;
     }
     
     .year-number h2{
-        font-size: 5vw;
+        font-size: 3.75vw;
         margin: auto;
         color: goldenrod;
     }
@@ -779,7 +714,8 @@
         object-fit: cover;
     }
     
-    .binary-name p{
+    .binary-name {
+        margin: 0vw;
         font-size: 2vw;
         color: wheat;
         text-align: center;
@@ -788,44 +724,28 @@
     .separator {
         background-color: black;
         height: 2vw; 
-        padding: 0;
-        margin-bottom: 6vw;
+        margin: 2vw 0;
     }
     
     .about-me {
-        height: 57vw;
-    }
-
-    .about-me-background {
-        opacity: 5%;
+        height: 50vw;
         position: relative;
-        bottom: 110vw;
-        left: -10vw;
-        padding-top: 50vw;
     }
-
-    .about-me-background img {
-        height: 40vw;
-        width: 110vw;
-        object-fit: cover;
-        transform: rotate(180deg);
-    }
-
 
     .about-me-border {
         border: 10px solid gold;
-        padding-bottom: 4vw;
-        margin: 0 15vw;
+        margin: 5vw 15vw;
+        position: absolute;
     }
-    
+
     .about-me-heading h2, .certifications-heading h2, .projects-heading h2 {
         color: goldenrod;
         font-size: 4vw;
-        margin-top: 7vw;
+        margin-top: 4vw;
         text-align: center;
         letter-spacing: 0.2vw;
     }
-
+    
     .about-me-box {
         position: relative;
         display: inline-block;
@@ -840,14 +760,7 @@
     .about-me-content p {
         font-size: 3vw;
         text-align: justify;
-    }
-    
-    .certifications-heading h2 {
-        color: wheat;
-        font-size: 4vw;
-        margin: 0vw;
-        text-align: center;
-        letter-spacing: 0.2vw;
+        margin-top: 0;
     }
 
     .certificates {
@@ -1015,11 +928,11 @@
         }
     
     .title {
-        margin-left: 25vw;
-        display: inline-block;
+        margin-left: 15vw;
         letter-spacing: 5px;
         margin-top: 5vw;
         text-shadow: 1vw 1vw 1vw black;
+        float: left;
     }
     
     .name {
@@ -1039,42 +952,26 @@
         margin: auto;
     }
 
-    .year {
-        display: flex;
-        align-items: last baseline;
-        justify-content: right;
+    .line {
+        background-color: goldenrod;;
+        width: 24vw;
+        height: 0.1vw;
+        position: absolute;
     }
-    
+
     .year-main h2{
         font-size: 4.75vw;
         padding-right: 2vw;
         margin: auto;
+        margin-top: 2vw;
     }
     
     .year-number h2{
-        font-size: 5vw;
+        font-size: 3.75vw;
         margin: auto;
         color: goldenrod;
     }
-    
-    .line {
-        background-color: goldenrod;;
-        width: 24vw;
-        height: 0.5vw;
-        margin: 0.8vw;
-        position: absolute;
-        left: 25vw;
-    }
-    
-    .sub-name {
-        flex-direction: column;
-        font-size: 6vw;
-    }
-    
-    .sub-name h3 {
-        margin: 0 0;
-    }
-    
+
     .image {
         display: flex;
         position: absolute;
@@ -1104,7 +1001,8 @@
         object-fit: cover;
     }
 
-    .binary-name p{
+    .binary-name {
+        margin: 0vw;
         font-size: 2vw;
         color: wheat;
         text-align: center;
@@ -1112,40 +1010,25 @@
     
     .separator {
         background-color: black;
-        height: 2.5vw; 
-        padding: 0;
-        margin-bottom: 6vw;
+        height: 2vw; 
+        margin: 2vw 0;
     }
     
     .about-me {
-        height: 57vw;
-    }
-    
-    .about-me-background {
-        opacity: 5%;
+        height: 50vw;
         position: relative;
-        bottom: 106vw;
-        left: -10vw;
-        padding-top: 50vw;
-    }
-
-    .about-me-background img {
-        height: 40vw;
-        width: 110vw;
-        object-fit: cover;
-        transform: rotate(180deg);
     }
 
     .about-me-border {
         border: 10px solid gold;
-        padding-bottom: 4vw;
-        margin: 0 15vw;
+        margin: 5vw 15vw;
+        position: absolute;
     }
 
     .about-me-heading h2, .certifications-heading h2, .projects-heading h2 {
         color: goldenrod;
         font-size: 4vw;
-        margin-top: 7vw;
+        margin-top: 4vw;
         text-align: center;
         letter-spacing: 0.2vw;
     }
@@ -1164,6 +1047,7 @@
     .about-me-content p {
         font-size: 3vw;
         text-align: justify;
+        margin-top: 0;
     }
 
     .certificates {
