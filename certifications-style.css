@@ -54,7 +54,6 @@
         height: 20vw;
     }
     
-    
     .certifications-heading-p h1{
         padding-top: 5vw;
         font-size: 10vw;
@@ -63,8 +62,9 @@
         text-align: center;
     }    
 
-    .certificates {
-        display: flex;
+    .certifications {
+        display: grid;
+        grid-template-columns: auto auto auto;
         justify-content: center;
     }
 
@@ -197,7 +197,6 @@
         height: 20vw;
     }
     
-    
     .certifications-heading-p h1{
         padding-top: 5vw;
         font-size: 10vw;
@@ -206,8 +205,9 @@
         text-align: center;
     }    
 
-    .certificates {
-        display: flex;
+    .certifications {
+        display: grid;
+        grid-template-columns: auto auto auto;
         justify-content: center;
     }
 
@@ -331,7 +331,7 @@
         text-decoration: none;
         color: wheat;
     }
-
+    
     .certifications-title {
         letter-spacing: 5px;
         text-shadow: 1vw 1vw 1vw black;
@@ -347,8 +347,9 @@
         text-align: center;
     }    
 
-    .certificates {
-        display: flex;
+    .certifications {
+        display: grid;
+        grid-template-columns: auto auto auto;
         justify-content: center;
     }
 
@@ -493,8 +494,9 @@
         text-align: center;
     }    
 
-    .certificates {
-        display: flex;
+    .certifications {
+        display: grid;
+        grid-template-columns: auto auto auto;
         justify-content: center;
     }
 
@@ -514,23 +516,6 @@
         width: 100%;
         border: 0.3vw solid #111215;
     }
-
-    .see-more-button {
-        background-color: black;
-        border: none;
-        padding: 0.5vw 1vw;
-        font-size: 2vw; /* Adjust font size */
-        cursor: pointer;
-        color: wheat;
-        margin: 0 46.5%;
-        margin-bottom: 1vw;
-    }
-    
-    .see-more-button:hover {
-        color: goldenrod;
-        background-color: white;
-    }
-
 
     footer {
         background-color: black;

@@ -172,18 +172,16 @@
     }
 
     .certificates {
-        display: flex;
-        margin-left: 15vw;
-        margin-right: 15vw;
+        display: grid;
+        grid-template-columns: auto auto auto;
         justify-content: center;
-        margin-top: 5vw;
     }
 
     .certificates-image {
         background-color: wheat;
         margin: 1vw;
         padding: 1vw;
-        width: 25vw;
+        width: auto;
         height: 19vw;
         border: 1vw solid black;
         display: flex;
@@ -446,18 +444,17 @@
     }
     
     .certificates {
-        display: flex;
-        margin-left: 5vw;
-        margin-right: 5vw;
+        display: grid;
+        grid-template-columns: auto auto auto;
         justify-content: center;
     }
 
     .certificates-image {
         background-color: wheat;
-        margin: 3vw 1vw;
+        margin: 1vw;
         padding: 1vw;
         width: auto;
-        height: 18vw;
+        height: 15vw;
         border: 1vw solid black;
         display: flex;
         justify-content: center;
@@ -715,18 +712,17 @@
     }
 
     .certificates {
-        display: flex;
-        margin-left: 5vw;
-        margin-right: 5vw;
+        display: grid;
+        grid-template-columns: auto auto auto;
         justify-content: center;
     }
 
     .certificates-image {
         background-color: wheat;
-        margin: 3vw 1vw;
+        margin: 1vw;
         padding: 1vw;
         width: auto;
-        height: 18vw;
+        height: 15vw;
         border: 1vw solid black;
         display: flex;
         justify-content: center;
@@ -989,15 +985,14 @@
     }
 
     .certificates {
-        display: flex;
-        margin-left: 15vw;
-        margin-right: 15vw;
+        display: grid;
+        grid-template-columns: auto auto auto;
         justify-content: center;
     }
 
     .certificates-image {
         background-color: wheat;
-        margin: 3vw 1vw;
+        margin: 1vw;
         padding: 1vw;
         width: auto;
         height: 15vw;
