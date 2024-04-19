@@ -48,143 +48,32 @@
         text-decoration: none;
     }
 
-    main {
-        padding: 20px;
-        color: wheat;
-        height: 60vw;
-        position: relative;
-    }
-    
-    .title {
-        margin-left: 15vw;
+    .certifications-title {
         letter-spacing: 5px;
-        margin-top: 5vw;
         text-shadow: 1vw 1vw 1vw black;
-        float: left;
+        height: 20vw;
     }
     
-    .name {
-        display: flex;
-        align-items: last baseline;
-    }
     
-    .a-name h1{
-        font-size: 30vw;
-        padding-right: 5px;
-        margin: auto;
-        color: goldenrod;
-    }
-    
-    .rest-name h2{
+    .certifications-heading-p h1{
+        padding-top: 5vw;
         font-size: 10vw;
         margin: auto;
-    }
-    
-    .line {
-        background-color: goldenrod;;
-        width: 36vw;
-        height: 0.1vw;
-        position: absolute;
-    }
-
-    .year-main h2{
-        font-size: 4vw;
-        padding-right: 2vw;
-        margin: auto;
-        margin-top: 3vw;
-    }
-    
-    .year-number h2{
-        font-size: 5vw;
-        margin: auto;
         color: goldenrod;
-    }
-
-    .image {
-        display: flex;
-        position: absolute;
-        top:15vw;
-        left: 62vw;
-    }
-    
-    .image img {
-        max-width: 20vw;
-        border: 0.5vw solid black;
-        background-image: url(Noise\ BG.png);
-        padding: 1vw;
-        border-radius: 5vw;
-    }
-    
-    .binary-name {
-        margin: 0vw;
-        font-size: 5vw;
-        color: wheat;
         text-align: center;
-    }
-
-    .separator {
-        background-color: black;
-        height: 6vw; 
-        margin: 4vw 0;
-    }
-    
-    .about-me {
-        height: 135vw;
-        position: relative;
-    }
-
-    .about-me-border {
-        border: 10px solid gold;
-        margin: 15vw;
-        position: absolute;
-    }
-
-    .about-me-heading {
-        margin-top: 10vw;
-    }
-
-    .about-me-heading h2, .certifications-heading h2, .projects-heading h2 {
-        color: goldenrod;
-        font-size: 8vw;
-        text-align: center;
-        letter-spacing: 0.2vw;
-    }
-
-    .about-me-box {
-        position: relative;
-        display: inline-block;
-        bottom: 5vw;
-    }
-    
-    .about-me-content {
-        color: wheat;
-        margin-left: 5vw;
-        margin-right: 5vw;
-    }
-    
-    .about-me-content p {
-        font-size: 5vw;
-        text-align: justify;
-    }
-
-    .certifications {
-        height: 55vw;
-    }
+    }    
 
     .certificates {
         display: flex;
-        margin-left: 15vw;
-        margin-right: 15vw;
         justify-content: center;
-        margin-top: 5vw;
     }
 
     .certificates-image {
         background-color: wheat;
         margin: 1vw;
         padding: 1vw;
-        width: 25vw;
-        height: 19vw;
+        width: auto;
+        height: 20vw;
         border: 1vw solid black;
         display: flex;
         justify-content: center;
@@ -192,34 +81,8 @@
 
     .certificates-image img {
         display: block;
-        width: 20vw;
+        width: 100%;
         border: 0.3vw solid #111215;
-        margin-right: vw;
-    }
-
-    .see-more-button {
-        background-color: black;
-        border: none;
-        padding: 0.5vw 1vw;
-        font-size: 2vw; /* Adjust font size */
-        cursor: pointer;
-        color: wheat;
-        margin: 0 46.5%;
-        margin-bottom: 1vw;
-    }
-    
-    .see-more-button:hover {
-        color: goldenrod;
-        background-color: white;
-    }
-    
-
-    .projects-content h3 {
-        font-size: 4vw;
-        color: wheat;
-        text-align: center;
-        letter-spacing: 0.2vh;
-        margin-top: 5vh;
     }
 
     footer {
@@ -327,137 +190,33 @@
         text-decoration: none;
         color: wheat;
     }
-    
-    main {
-        padding: 20px;
-        color: wheat;
-        height: 45vw;
-        position: relative;
-        }
-    
-    .title {
-        margin-left: 15vw;
+
+    .certifications-title {
         letter-spacing: 5px;
-        margin-top: 5vw;
         text-shadow: 1vw 1vw 1vw black;
-        float: left;
+        height: 20vw;
     }
     
-    .name {
-        display: flex;
-        align-items: last baseline;
-    }
     
-    .a-name h1{
-        font-size: 20vw;
-        padding-right: 5px;
+    .certifications-heading-p h1{
+        padding-top: 5vw;
+        font-size: 10vw;
         margin: auto;
         color: goldenrod;
-    }
-    
-    .rest-name h2{
-        font-size: 8vw;
-        margin: auto;
-    }
-    
-    .line {
-        background-color: goldenrod;;
-        width: 26vw;
-        height: 0.1vw;
-        position: absolute;
-    }
-    
-    .year-main h2{
-        font-size: 4.75vw;
-        padding-right: 2vw;
-        margin: auto;
-        margin-top: 2vw;
-    }
-    
-    .year-number h2{
-        font-size: 3.75vw;
-        margin: auto;
-        color: goldenrod;
-    }
-
-    .image {
-        display: flex;
-        position: absolute;
-        top:11vw;
-        left: 62vw;
-    }
-    
-    .image img {
-        max-width: 15vw;
-        border: 0.5vw solid black;
-        background-image: url(Noise\ BG.png);
-        padding: 1vw;
-        border-radius: 50px;
-    }
-
-    .binary-name {
-        margin: 0vw;
-        font-size: 2vw;
-        color: wheat;
         text-align: center;
-    }
-    
-    .separator {
-        background-color: black;
-        height: 2vw; 
-        margin: 2vw 0;
-        margin-top: 5vw;
-    }
-    
-    .about-me {
-        height: 50vw;
-        position: relative;
-    }
+    }    
 
-    .about-me-border {
-        border: 10px solid gold;
-        margin: 5vw 15vw;
-        position: absolute;
-    }
-
-    .about-me-heading h2, .certifications-heading h2, .projects-heading h2 {
-        color: goldenrod;
-        font-size: 4vw;
-        margin-top: 4vw;
-        text-align: center;
-        letter-spacing: 0.2vw;
-    }
-    
-    .about-me-box {
-        position: relative;
-        display: inline-block;
-    }
-    
-    .about-me-content {
-        color: wheat;
-        margin-left: 5vw;
-        margin-right: 5vw;
-    }
-    
-    .about-me-content p {
-        font-size: 3vw;
-        text-align: justify;
-        margin-top: 0;
-    }
-    
     .certificates {
         display: flex;
-        margin-left: 5vw;
-        margin-right: 5vw;
         justify-content: center;
     }
 
     .certificates-image {
         background-color: wheat;
-        margin: 3vw 1vw;
+        margin: 1vw;
         padding: 1vw;
         width: auto;
-        height: 18vw;
+        height: 20vw;
         border: 1vw solid black;
         display: flex;
         justify-content: center;
@@ -467,31 +226,6 @@
         display: block;
         width: 100%;
         border: 0.3vw solid #111215;
-        margin-right: vw;
-    }
-
-    .see-more-button {
-        background-color: black;
-        border: none;
-        padding: 0.5vw 1vw;
-        font-size: 2vw; /* Adjust font size */
-        cursor: pointer;
-        color: wheat;
-        margin: 0 46.5%;
-        margin-bottom: 1vw;
-    }
-    
-    .see-more-button:hover {
-        color: goldenrod;
-        background-color: white;
-    }
-
-    .projects-content h3 {
-        font-size: 4vw;
-        color: wheat;
-        text-align: center;
-        letter-spacing: 0.2vh;
-        margin-top: 5vh;
     }
 
     footer {
@@ -597,136 +331,33 @@
         text-decoration: none;
         color: wheat;
     }
-    
-    main {
-        padding: 20px;
-        color: wheat;
-        height: 45vw;
-        position: relative;
-        }
-    
-    .title {
-        margin-left: 15vw;
+
+    .certifications-title {
         letter-spacing: 5px;
-        margin-top: 5vw;
         text-shadow: 1vw 1vw 1vw black;
-        float: left;
+        height: 20vw;
     }
     
-    .name {
-        display: flex;
-        align-items: last baseline;
-    }
     
-    .a-name h1{
-        font-size: 20vw;
-        padding-right: 5px;
-        margin: auto;
-    }
-    
-    .rest-name h2{
-        font-size: 8vw;
-        margin: auto;
-    }
-    
-
-    .line {
-        background-color: goldenrod;;
-        width: 24vw;
-        height: 0.1vw;
-        position: absolute;
-    }
-
-    .year-main h2{
-        font-size: 4.75vw;
-        padding-right: 2vw;
-        margin: auto;
-        margin-top: 2vw;
-    }
-    
-    .year-number h2{
-        font-size: 3.75vw;
+    .certifications-heading-p h1{
+        padding-top: 5vw;
+        font-size: 10vw;
         margin: auto;
         color: goldenrod;
-    }
-    
-    .image {
-        display: flex;
-        position: absolute;
-        top:11vw;
-        left: 62vw;
-    }
-    
-    .image img {
-        max-width: 15vw;
-        border: 0.5vw solid black;
-        background-image: url(Noise\ BG.png);
-        padding: 1vw;
-        border-radius: 50px;
-    }
-    
-    .binary-name {
-        margin: 0vw;
-        font-size: 2vw;
-        color: wheat;
         text-align: center;
-    }
-    
-    .separator {
-        background-color: black;
-        height: 2vw; 
-        margin: 2vw 0;
-    }
-    
-    .about-me {
-        height: 50vw;
-        position: relative;
-    }
-
-    .about-me-border {
-        border: 10px solid gold;
-        margin: 5vw 15vw;
-        position: absolute;
-    }
-
-    .about-me-heading h2, .certifications-heading h2, .projects-heading h2 {
-        color: goldenrod;
-        font-size: 4vw;
-        margin-top: 4vw;
-        text-align: center;
-        letter-spacing: 0.2vw;
-    }
-    
-    .about-me-box {
-        position: relative;
-        display: inline-block;
-    }
-    
-    .about-me-content {
-        color: wheat;
-        margin-left: 5vw;
-        margin-right: 5vw;
-    }
-    
-    .about-me-content p {
-        font-size: 3vw;
-        text-align: justify;
-        margin-top: 0;
-    }
+    }    
 
     .certificates {
         display: flex;
-        margin-left: 5vw;
-        margin-right: 5vw;
         justify-content: center;
     }
 
     .certificates-image {
         background-color: wheat;
-        margin: 3vw 1vw;
+        margin: 1vw;
         padding: 1vw;
         width: auto;
-        height: 18vw;
+        height: 20vw;
         border: 1vw solid black;
         display: flex;
         justify-content: center;
@@ -736,33 +367,8 @@
         display: block;
         width: 100%;
         border: 0.3vw solid #111215;
-        margin-right: vw;
     }
 
-    .see-more-button {
-        background-color: black;
-        border: none;
-        padding: 0.5vw 1vw;
-        font-size: 2vw; /* Adjust font size */
-        cursor: pointer;
-        color: wheat;
-        margin: 0 46.5%;
-        margin-bottom: 1vw;
-    }
-    
-    .see-more-button:hover {
-        color: goldenrod;
-        background-color: white;
-    }
-
-    .projects-content h3 {
-        font-size: 3vw;
-        color: wheat;
-        text-align: center;
-        letter-spacing: 0.2vh;
-        margin-top: 5vh;
-    }
-    
     footer {
         background-color: black;
         color: goldenrod;
@@ -872,135 +478,32 @@
         background-color: white;
     }
 
-    main {
-        padding: 20px;
-        color: wheat;
-        min-height: 43vw;
-        position: relative;
-    } 
-
-    .title {
-        margin-left: 15vw;
+    .certifications-title {
         letter-spacing: 5px;
-        margin-top: 5vw;
         text-shadow: 1vw 1vw 1vw black;
-        float: left;
+        height: 20vw;
     }
     
-    .name {
-        display: flex;
-        align-items: last baseline;
-    }
     
-    .a-name h1{
-        font-size: 20vw;
-        padding-right: 5px;
+    .certifications-heading-p h1{
+        padding-top: 5vw;
+        font-size: 10vw;
         margin: auto;
         color: goldenrod;
-    }
-    
-    .rest-name h2{
-        font-size: 8vw;
-        margin: auto;
-    }
-
-    .line {
-        background-color: goldenrod;;
-        width: 24vw;
-        height: 0.1vw;
-        position: absolute;
-    }
-
-    .year-main h2{
-        font-size: 4.75vw;
-        padding-right: 2vw;
-        margin: auto;
-        margin-top: 2vw;
-    }
-    
-    .year-number h2{
-        font-size: 3.75vw;
-        margin: auto;
-        color: goldenrod;
-    }
-
-    .image {
-        display: flex;
-        position: absolute;
-        top:11vw;
-        left: 62vw;
-    }
-    
-    .image img {
-        max-width: 15vw;
-        border: 0.5vw solid black;
-        background-image: url(Noise\ BG.png);
-        padding: 1vw;
-        border-radius: 50px;
-    }
-
-    .binary-name {
-        margin: 0vw;
-        font-size: 2vw;
-        color: wheat;
         text-align: center;
-    }
-    
-    .separator {
-        background-color: black;
-        height: 2vw; 
-        margin: 2vw 0;
-    }
-    
-    .about-me {
-        height: 50vw;
-        position: relative;
-    }
-
-    .about-me-border {
-        border: 10px solid gold;
-        margin: 5vw 15vw;
-        position: absolute;
-    }
-
-    .about-me-heading h2, .certifications-heading h2, .projects-heading h2 {
-        color: goldenrod;
-        font-size: 4vw;
-        margin-top: 4vw;
-        text-align: center;
-        letter-spacing: 0.2vw;
-    }
-    
-    .about-me-box {
-        position: relative;
-        display: inline-block;
-    }
-    
-    .about-me-content {
-        color: wheat;
-        margin-left: 5vw;
-        margin-right: 5vw;
-    }
-    
-    .about-me-content p {
-        font-size: 3vw;
-        text-align: justify;
-        margin-top: 0;
-    }
+    }    
 
     .certificates {
         display: flex;
-        margin-left: 15vw;
-        margin-right: 15vw;
         justify-content: center;
     }
 
     .certificates-image {
         background-color: wheat;
-        margin: 3vw 1vw;
+        margin: 1vw;
         padding: 1vw;
         width: auto;
-        height: 15vw;
+        height: 20vw;
         border: 1vw solid black;
         display: flex;
         justify-content: center;
@@ -1027,15 +530,8 @@
         color: goldenrod;
         background-color: white;
     }
-    
-    .projects-content h3 {
-        font-size: 4vw;
-        color: wheat;
-        text-align: center;
-        letter-spacing: 0.2vh;
-        margin-top: 5vh;
-    }
-    
+
+
     footer {
         background-color: black;
         color: goldenrod;
