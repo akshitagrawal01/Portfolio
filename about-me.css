@@ -1,11 +1,11 @@
-.about-me {
-    height: 50vw;
+#about-me {
     position: relative;
 }
 
-.about-me-border {
+.about-me {
+    height: 100%;
     border: 10px solid gold;
-    margin: 5vw 15vw;
+    margin: 5vw 10vw;
     position: absolute;
 }
 
@@ -18,8 +18,8 @@
 }
 
 .about-me-box {
-    position: relative;
     display: inline-block;
+    
 }
 
 .about-me-content {

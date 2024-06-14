@@ -1,8 +1,15 @@
+
+.certifications {
+    height: 100%;
+    position: relative;
+}
+
 .certifications-heading h2 {
     color: goldenrod;
     font-size: 4vw;
     margin-top: 4vw;
     text-align: center;
     letter-spacing: 0.2vw;
+    padding: 2vw;
 }
 
