@@ -1,0 +1,51 @@
+main {
+    padding: 20px;
+    color: wheat;
+    min-height: 43vw;
+    position: relative;
+}
+
+.title {
+    margin-left: 15vw;
+    letter-spacing: 5px;
+    margin-top: 5vw;
+    text-shadow: 1vw 1vw 1vw black;
+    float: left;
+}
+
+.name {
+    display: flex;
+    align-items: last baseline;
+}
+
+.a-name h1 {
+    font-size: 20vw;
+    padding-right: 5px;
+    margin: auto;
+    color: goldenrod;
+}
+
+.rest-name h2 {
+    font-size: 8vw;
+    margin: auto;
+}
+
+.line {
+    background-color: goldenrod;
+    width: 24vw;
+    height: 0.1vw;
+    position: absolute;
+}
+
+.year-main h2 {
+    font-size: 4.75vw;
+    padding-right: 2vw;
+    margin: auto;
+    margin-top: 2vw;
+}
+
+.year-number h2 {
+    font-size: 3.75vw;
+    margin: auto;
+    color: goldenrod;
+}

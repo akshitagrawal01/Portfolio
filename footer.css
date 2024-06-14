@@ -1,0 +1,51 @@
+footer {
+    background-color: black;
+    color: goldenrod;
+}
+
+.footer {
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+
+.footer p {
+    font-size: 1.5vw;
+    text-align: center;
+    margin: 0px;
+    padding: 2vw;
+}
+
+.gold-logo,
+.black-logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 3vw;
+}
+
+.social-media img {
+    max-width: 3vw;
+}
+
+.black-logo {
+    display: none;
+}
+
+.social-media:hover {
+    color: black;
+    background-color: wheat;
+
+    .gold-logo {
+        display: none;
+    }
+
+    .black-logo {
+        display: flex;
+    }
+}
