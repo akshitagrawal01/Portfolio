@@ -1,8 +1,9 @@
 @import url(header.css);
 @import url(ui-btn.css);
+@import url(separator.css);
 @import url(cover.css);
-@import url(cover-right-side.css);
 @import url(about-me.css);
+@import url(activity.css);
 @import url(certifications-style.css);
 @import url(footer.css);
 
@@ -23,34 +24,12 @@ body {
     height: 100%;
 }
 
-.cover-right-side {
-    float: right;
-    height: auto;
-    width: 25%;
-    margin: 0;
-    text-align: center;
-    font-family: karantina;
-}
-
-.cover-right-side h2 {
-    font-size: 3vw;
-    letter-spacing: 0.2vw;
-    color: goldenrod;
-}
-
-.cover-left-side {
-    float: left;
-    height: auto;
-    width: 75%;
-    margin: 0;
-
-}
-
 .background-element-1 {
 
-    background-image: url(Tabs\ Background.svg);
-
-    opacity: 30%;
+    background-color: #111215;
+    background-image:  linear-gradient(#e85050 1.8px, transparent 1.8px), linear-gradient(to right, #e85050 1.8px, #111215 1.8px);
+    background-size: 36px 36px;
+    opacity: 10%;
     width: 25%;
     height: 100%;
     position: absolute;
@@ -69,9 +48,16 @@ body {
     background-position: -5px -5px;
 
     opacity: 30%;
-    width: 75%;
+    width: 100%;
     height: 100%;
     position: absolute;
     z-index: -1;
     left: 0px;
+}
+
+marquee {
+    color: #e85050;
+    font-size: 2vw;
+    padding: 1vw;
+    background-color: white;
 }

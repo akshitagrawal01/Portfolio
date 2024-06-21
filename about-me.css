@@ -4,14 +4,14 @@
 
 .about-me {
     height: 100%;
-    border: 10px solid gold;
-    margin: 5vw 10vw;
     position: absolute;
+    border: gold solid 1vw;
+    margin: 5vw 10vw;
 }
 
 .about-me-heading h2 {
     color: goldenrod;
-    font-size: 4vw;
+    font-size: 6vw;
     margin-top: 4vw;
     text-align: center;
     letter-spacing: 0.2vw;
@@ -19,17 +19,16 @@
 
 .about-me-box {
     display: inline-block;
-    
 }
 
 .about-me-content {
     color: wheat;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin: 0 5vw;
 }
 
 .about-me-content p {
     font-size: 3vw;
+    letter-spacing: 0.1vw;
     text-align: justify;
     margin-top: 0;
 }

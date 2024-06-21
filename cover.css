@@ -1,15 +1,18 @@
+/*Left Side Main Body*/
+
 main {
     color: wheat;
-    min-height: 43vw;
+    height: 38vw;
     position: relative;
 }
 
 .title {
     margin-left: 10vw;
-    letter-spacing: 5px;
     margin-top: 5vw;
+    letter-spacing: 5px;
     text-shadow: 1vw 1vw 1vw black;
     float: left;
+    padding: 3vw;    
 }
 
 .name {
@@ -34,6 +37,7 @@ main {
     width: 24vw;
     height: 0.1vw;
     position: absolute;
+    
 }
 
 .year-main h2 {
@@ -41,10 +45,21 @@ main {
     padding-right: 2vw;
     margin: auto;
     margin-top: 2vw;
+    color: #00ca4e;
+    
 }
 
 .year-number h2 {
     font-size: 3.75vw;
     margin: auto;
-    color: goldenrod;
+    color: #e85050;
+    
 }
+
+.cover-right-side marquee {
+    padding: 1vw;
+    font-size: 2vw;
+    letter-spacing: 0.2vw;
+    color: #e85050;
+}
+

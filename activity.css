@@ -1,0 +1,14 @@
+.activity {
+    height: auto;
+    position: relative;
+}
+
+.activity-heading h2 {
+    color: goldenrod;
+    font-size: 6vw;
+    margin-top: 4vw;
+    text-align: center;
+    letter-spacing: 0.2vw;
+    padding-top: 2vw;
+}
+
