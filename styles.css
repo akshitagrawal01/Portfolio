@@ -1,6 +1,7 @@
 @import url(header.css);
 @import url(ui-btn.css);
 @import url(cover.css);
+@import url(cover-right-side.css);
 @import url(about-me.css);
 @import url(certifications-style.css);
 @import url(footer.css);
@@ -22,6 +23,21 @@ body {
     height: 100%;
 }
 
+.cover-right-side {
+    float: right;
+    height: auto;
+    width: 25%;
+    margin: 0;
+    text-align: center;
+    font-family: karantina;
+}
+
+.cover-right-side h2 {
+    font-size: 3vw;
+    letter-spacing: 0.2vw;
+    color: goldenrod;
+}
+
 .cover-left-side {
     float: left;
     height: auto;
@@ -32,10 +48,9 @@ body {
 
 .background-element-1 {
 
-    background-color: #111215;
-    background-image:  linear-gradient(#e85050 1.8px, transparent 1.8px), linear-gradient(to right, #e85050 1.8px, #111215 1.8px);
-    background-size: 36px 36px;
-    opacity: 10%;
+    background-image: url(Tabs\ Background.svg);
+
+    opacity: 30%;
     width: 25%;
     height: 100%;
     position: absolute;

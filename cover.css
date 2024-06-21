@@ -41,34 +41,10 @@ main {
     padding-right: 2vw;
     margin: auto;
     margin-top: 2vw;
-    color: #00ca4e;
 }
 
 .year-number h2 {
     font-size: 3.75vw;
     margin: auto;
-    color: #e85050;
-}
-
-.cover-right-side {
-    float: right;
-    height: auto;
-    width: 25%;
-    margin: 0;
-    text-align: center;
-    font-family: karantina;
-}
-
-.cover-right-side h2 {
-    font-size: 3vw;
-    letter-spacing: 0.2vw;
     color: goldenrod;
-}
-
-.quote {
-    font-size: 2vw;
-    letter-spacing: 0.2vw;
-    margin: 2vw;
-    color: goldenrod;
-    margin-top: 20vw;
 }
