@@ -49,17 +49,15 @@ main {
     
 }
 
+.year-number {
+    display: flex;
+    float: left;
+    align-items: center;
+}
+
 .year-number h2 {
     font-size: 3.75vw;
     margin: auto;
     color: #e85050;
     
 }
-
-.cover-right-side marquee {
-    padding: 1vw;
-    font-size: 2vw;
-    letter-spacing: 0.2vw;
-    color: #e85050;
-}
-
