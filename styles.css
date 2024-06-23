@@ -24,6 +24,7 @@ body {
     cursor: url("Arrow.cur"), auto;
     height: 100%;
     width: 100%;
+    position: relative;
 }
 
 .background-element-1 {
@@ -84,6 +85,7 @@ marquee {
         cursor: pointer;
         height: 100%;
         width: 100%;
+        position: relative;
     }
 
     .background-element-1 {
