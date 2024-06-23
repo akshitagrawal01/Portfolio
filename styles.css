@@ -24,7 +24,6 @@ body {
     cursor: url("Arrow.cur"), auto;
     height: 100%;
     width: 100%;
-    position: relative;
 }
 
 .background-element-1 {
@@ -81,11 +80,9 @@ marquee {
         background-color: #111215;
         font-family: karantina;
         margin: 0px;
-        overflow-x: hidden;
         cursor: pointer;
         height: 100%;
         width: 100%;
-        position: relative;
     }
 
     .background-element-1 {
