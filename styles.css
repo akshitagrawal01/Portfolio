@@ -23,6 +23,7 @@ body {
     overflow-x: hidden;
     cursor: url("Arrow.cur"), auto;
     height: 100%;
+    width: 100%;
 }
 
 .background-element-1 {
@@ -66,6 +67,24 @@ marquee {
 
 
 @media screen and (max-width: 800px) {
+
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    #parent {
+        position: relative;
+    }
+    
+    body {
+        background-color: #111215;
+        font-family: karantina;
+        margin: 0px;
+        overflow-x: hidden;
+        cursor: pointer;
+        height: 100%;
+        width: 100%;
+    }
 
     .background-element-1 {
 
