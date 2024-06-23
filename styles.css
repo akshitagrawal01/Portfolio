@@ -8,6 +8,10 @@
 @import url(footer.css);
 @import url(socials.css);
 
+* {
+    box-sizing: border-box;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -24,6 +28,8 @@ body {
     cursor: url("Arrow.cur"), auto;
     height: 100%;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .background-element-1 {
@@ -67,53 +73,6 @@ marquee {
 
 
 @media screen and (max-width: 800px) {
-
-    html {
-        scroll-behavior: smooth;
-    }
-    
-    #parent {
-        position: relative;
-    }
-    
-    body {
-        background-color: #111215;
-        font-family: karantina;
-        margin: 0px;
-        height: 100%;
-        width: 100%;
-    }
-
-    .background-element-1 {
-
-        background-color: #111215;
-        background-image: linear-gradient(#e85050 1.8px, transparent 1.8px), linear-gradient(to right, #e85050 1.8px, #111215 1.8px);
-        background-size: 36px 36px;
-        opacity: 5%;
-        width: 50%;
-        height: 100%;
-        position: absolute;
-        z-index: -1;
-        right: 0px;
-        border-left: solid black 0.5rem;
-
-    }
-
-    .background-element-2 {
-        background-color: #000000;
-        background-image: linear-gradient(32deg,
-                rgba(8, 8, 8, 0.74) 30px,
-                transparent);
-        background-size: 60px 60px;
-        background-position: -5px -5px;
-
-        opacity: 30%;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        z-index: -1;
-        left: 0px;
-    }
 
     marquee {
         color: #e85050;
