@@ -4,6 +4,7 @@ footer {
 }
 
 .footer {
+    margin-top: 5vw;
     margin-left: auto;
     margin-right: auto;
     vertical-align: middle;
@@ -47,5 +48,25 @@ footer {
 
     .black-logo {
         display: flex;
+    }
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .footer p {
+        font-size: 4vw;
+        text-align: center;
+        margin: 0px;
+        padding-bottom: 12vw;
+    }
+
+    .social-media img {
+        max-width: 6vw;
+        padding: 6vw 0;
+    }
+
+    .black-logo, .gold-logo {
+        gap: 5vw;
     }
 }
