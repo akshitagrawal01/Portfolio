@@ -61,3 +61,47 @@ main {
     color: #e85050;
     
 }
+
+@media screen and (max-width: 800px) {
+    .a-name h1 {
+        font-size: 50vw;
+        padding-right: 5px;
+        margin: auto;
+        color: goldenrod;
+    }
+    
+    .rest-name h2 {
+        font-size: 20vw;
+        margin: auto;
+    }
+    
+    .line {
+        background-color: goldenrod;
+        width: 60vw;
+        height: 0.1vw;
+        position: absolute;
+        
+    }
+    
+    .year-main h2 {
+        font-size: 10.5vw;
+        padding-right: 2vw;
+        margin: auto;
+        margin-top: 2vw;
+        color: #00ca4e;
+        
+    }
+    
+    .year-number {
+        display: flex;
+        float: left;
+        align-items: center;
+    }
+    
+    .year-number h2 {
+        font-size: 9.5vw;
+        margin: auto;
+        color: #e85050;
+        
+    }
+}

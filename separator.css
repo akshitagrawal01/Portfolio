@@ -13,3 +13,20 @@
     border-radius: 1vw;
     padding: 2vw;
 }
+
+@media screen and (max-width: 800px) {
+    .separator {
+        position: relative;
+        text-align: center;
+        margin: 15vw 0 10vw 0;
+    }
+    
+    .quote {
+        font-size: 5vw;
+        letter-spacing: 0.2vw;
+        color: white;   
+        margin: 10vw;
+        border-radius: 1vw;
+        padding: 60vw 0 10vw 0;
+    }
+}

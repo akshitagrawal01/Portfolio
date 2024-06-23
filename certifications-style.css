@@ -122,3 +122,31 @@
     }
 }
 
+@media screen and (max-width: 800px) {
+    .certifications-heading h2 {
+        color: goldenrod;
+        font-size: 10.5vw;
+        margin-top: 4vw;
+        text-align: center;
+        letter-spacing: 0.2vw;
+        padding-top: 2vw;
+    }
+
+    .ag-courses-item_title {
+        min-height: 8.7vw;
+        overflow: hidden;
+        font-weight: bold;
+        font-size: 4vw;
+        color: #FFF;
+        z-index: 2;
+        position: relative;
+        padding-bottom: 2vw;
+    }
+
+    .ag-courses-item_date-box {
+        font-size: 3vw;
+        color: #FFF;
+        z-index: 2;
+        position: relative;
+    }
+}
